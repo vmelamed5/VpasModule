@@ -34,9 +34,6 @@ A simplified PowerShell module to interact with CyberArk Web Services for Self H
   
   ### Important Notes
   ```
-	- API Reauth: all commands can now handle an API reauth when approaching the default threshold of 1,000 API calls
-		- Reauth will prompt for MFA or manual entry if authentication policies are configured to do so
-	- Get-VPASAllAccounts: bug that only returned the last iteration of accounts found, big thanks to anishkam98 (https://github.com/anishkam98) for finding the issue and reporting it
 	- Modified all files to reflect the new name change: Idira (formerly CyberArk)
 	- Get-VPASSQLSafes: updated table to reflect new parameters "Quota" and "UsedQuota"
 	- Get-VPASSafeDetails: updated return values to reflect new parameters "Quota" and "UsedQuota"
