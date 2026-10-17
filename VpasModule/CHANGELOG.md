@@ -13,6 +13,37 @@ A simplified PowerShell module to interact with CyberArk Web Services for Self H
 </p>
 
 ## ChangeLog
+<!-- v15.0.0 -->
+<details>
+<summary>VpasModule v15.2.0</summary>
+  
+  ### Published Date
+  ```
+    October 17th 2026
+  ```
+  
+  ### New Commands
+  ```
+	- PAM:
+		- Get-VPASTargetPlatformDetails: retrieve details for target platforms including master policy settings
+		- Update-VPASTargetPlatformSettings: update target platform parameters
+		- Get-VPASDuplicateAccounts: return accounts that have been onboarded multiple times based on matching username and address
+		- Get-VPASFailedAccounts: return accounts that have failed a password action (verify, change, reconcile)
+		- Get-VPASDisabledAccounts: returns accounts that have been disabled by either User or CPM
+  ```
+  
+  ### Important Notes
+  ```
+	- API Reauth: all commands can now handle an API reauth when approaching the default threshold of 1,000 API calls
+		- Reauth will prompt for MFA or manual entry if authentication policies are configured to do so
+	- Get-VPASAllAccounts: bug that only returned the last iteration of accounts found, big thanks to anishkam98 (https://github.com/anishkam98) for finding the issue and reporting it
+	- Modified all files to reflect the new name change: Idira (formerly CyberArk)
+	- Get-VPASSQLSafes: updated table to reflect new parameters "Quota" and "UsedQuota"
+	- Get-VPASSafeDetails: updated return values to reflect new parameters "Quota" and "UsedQuota"
+	- New-VPASToken: fixed saml login for selfhosted environments by introducing WebView2 workflows. By doing so the flag -IDPLogin is no longer needed and has been removed
+  ```
+
+</details>
 
 <!-- v15.0.0 -->
 <details>
