@@ -1,0 +1,3476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VPASIntentMap Version="1.0" Source="VpasModule 15.0.0 PowerShell Gallery" Generated="2026-06-01">
+	<Intent Name="AddAccount" Command="Add-VPASAccount" Category="Accounts">
+		<Description>Resolve prompts that refer to add operations for Account.</Description>
+		<Keywords>
+			<Keyword Weight="12">add account</Keyword>
+			<Keyword Weight="8">create account</Keyword>
+			<Keyword Weight="8">new account</Keyword>
+			<Keyword Weight="8">onboard account</Keyword>
+			<Keyword Weight="15">add-vpasaccount</Keyword>
+			<Keyword Weight="10">account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddAccountGroup" Command="Add-VPASAccountGroup" Category="Accounts">
+		<Description>Resolve prompts that refer to add operations for Account Group.</Description>
+		<Keywords>
+			<Keyword Weight="12">add account group</Keyword>
+			<Keyword Weight="8">create account group</Keyword>
+			<Keyword Weight="8">new account group</Keyword>
+			<Keyword Weight="8">onboard account group</Keyword>
+			<Keyword Weight="15">add-vpasaccountgroup</Keyword>
+			<Keyword Weight="10">account group</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddAccountRequest" Command="Add-VPASAccountRequest" Category="Accounts">
+		<Description>Resolve prompts that refer to add operations for Account Request.</Description>
+		<Keywords>
+			<Keyword Weight="12">add account request</Keyword>
+			<Keyword Weight="8">create account request</Keyword>
+			<Keyword Weight="8">new account request</Keyword>
+			<Keyword Weight="8">onboard account request</Keyword>
+			<Keyword Weight="15">add-vpasaccountrequest</Keyword>
+			<Keyword Weight="10">account request</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddAccountToAccountGroup" Command="Add-VPASAccountToAccountGroup" Category="Accounts">
+		<Description>Resolve prompts that refer to add operations for Account To Account Group.</Description>
+		<Keywords>
+			<Keyword Weight="12">add account to account group</Keyword>
+			<Keyword Weight="8">create account to account group</Keyword>
+			<Keyword Weight="8">new account to account group</Keyword>
+			<Keyword Weight="8">onboard account to account group</Keyword>
+			<Keyword Weight="15">add-vpasaccounttoaccountgroup</Keyword>
+			<Keyword Weight="10">account to account group</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddAllowedIP" Command="Add-VPASAllowedIP" Category="General">
+		<Description>Resolve prompts that refer to add operations for Allowed IP.</Description>
+		<Keywords>
+			<Keyword Weight="12">add allowed ip</Keyword>
+			<Keyword Weight="8">create allowed ip</Keyword>
+			<Keyword Weight="8">new allowed ip</Keyword>
+			<Keyword Weight="8">onboard allowed ip</Keyword>
+			<Keyword Weight="15">add-vpasallowedip</Keyword>
+			<Keyword Weight="10">allowed ip</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddAllowedReferrer" Command="Add-VPASAllowedReferrer" Category="General">
+		<Description>Resolve prompts that refer to add operations for Allowed Referrer.</Description>
+		<Keywords>
+			<Keyword Weight="12">add allowed referrer</Keyword>
+			<Keyword Weight="8">create allowed referrer</Keyword>
+			<Keyword Weight="8">new allowed referrer</Keyword>
+			<Keyword Weight="8">onboard allowed referrer</Keyword>
+			<Keyword Weight="15">add-vpasallowedreferrer</Keyword>
+			<Keyword Weight="10">allowed referrer</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddApplication" Command="Add-VPASApplication" Category="Applications">
+		<Description>Resolve prompts that refer to add operations for Application.</Description>
+		<Keywords>
+			<Keyword Weight="12">add application</Keyword>
+			<Keyword Weight="8">create application</Keyword>
+			<Keyword Weight="8">new application</Keyword>
+			<Keyword Weight="8">onboard application</Keyword>
+			<Keyword Weight="15">add-vpasapplication</Keyword>
+			<Keyword Weight="10">application</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddApplicationAuthentication" Command="Add-VPASApplicationAuthentication" Category="Applications">
+		<Description>Resolve prompts that refer to add operations for Application Authentication.</Description>
+		<Keywords>
+			<Keyword Weight="12">add application authentication</Keyword>
+			<Keyword Weight="8">create application authentication</Keyword>
+			<Keyword Weight="8">new application authentication</Keyword>
+			<Keyword Weight="8">onboard application authentication</Keyword>
+			<Keyword Weight="15">add-vpasapplicationauthentication</Keyword>
+			<Keyword Weight="10">application authentication</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddAuthenticationMethod" Command="Add-VPASAuthenticationMethod" Category="Authentication">
+		<Description>Resolve prompts that refer to add operations for Authentication Method.</Description>
+		<Keywords>
+			<Keyword Weight="12">add authentication method</Keyword>
+			<Keyword Weight="8">create authentication method</Keyword>
+			<Keyword Weight="8">new authentication method</Keyword>
+			<Keyword Weight="8">onboard authentication method</Keyword>
+			<Keyword Weight="15">add-vpasauthenticationmethod</Keyword>
+			<Keyword Weight="10">authentication method</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddBulkAccounts" Command="Add-VPASBulkAccounts" Category="Accounts">
+		<Description>Resolve prompts that refer to add operations for Bulk Accounts.</Description>
+		<Keywords>
+			<Keyword Weight="12">add bulk accounts</Keyword>
+			<Keyword Weight="8">create bulk accounts</Keyword>
+			<Keyword Weight="8">new bulk accounts</Keyword>
+			<Keyword Weight="8">onboard bulk accounts</Keyword>
+			<Keyword Weight="15">add-vpasbulkaccounts</Keyword>
+			<Keyword Weight="10">bulk accounts</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddBulkSafeMembers" Command="Add-VPASBulkSafeMembers" Category="Safes">
+		<Description>Resolve prompts that refer to add operations for Bulk Safe Members.</Description>
+		<Keywords>
+			<Keyword Weight="12">add bulk safe members</Keyword>
+			<Keyword Weight="8">create bulk safe members</Keyword>
+			<Keyword Weight="8">new bulk safe members</Keyword>
+			<Keyword Weight="8">onboard bulk safe members</Keyword>
+			<Keyword Weight="15">add-vpasbulksafemembers</Keyword>
+			<Keyword Weight="10">bulk safe members</Keyword>
+			<Keyword Weight="12">safe permissions</Keyword>
+			<Keyword Weight="11">who has access to safe</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddBulkSafes" Command="Add-VPASBulkSafes" Category="Safes">
+		<Description>Resolve prompts that refer to add operations for Bulk Safes.</Description>
+		<Keywords>
+			<Keyword Weight="12">add bulk safes</Keyword>
+			<Keyword Weight="8">create bulk safes</Keyword>
+			<Keyword Weight="8">new bulk safes</Keyword>
+			<Keyword Weight="8">onboard bulk safes</Keyword>
+			<Keyword Weight="15">add-vpasbulksafes</Keyword>
+			<Keyword Weight="10">bulk safes</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddEPVGroup" Command="Add-VPASEPVGroup" Category="EPV">
+		<Description>Resolve prompts that refer to add operations for EPV Group.</Description>
+		<Keywords>
+			<Keyword Weight="12">add epv group</Keyword>
+			<Keyword Weight="8">create epv group</Keyword>
+			<Keyword Weight="8">new epv group</Keyword>
+			<Keyword Weight="8">onboard epv group</Keyword>
+			<Keyword Weight="15">add-vpasepvgroup</Keyword>
+			<Keyword Weight="10">epv group</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddEPVUser" Command="Add-VPASEPVUser" Category="EPV">
+		<Description>Resolve prompts that refer to add operations for EPV User.</Description>
+		<Keywords>
+			<Keyword Weight="12">add epv user</Keyword>
+			<Keyword Weight="8">create epv user</Keyword>
+			<Keyword Weight="8">new epv user</Keyword>
+			<Keyword Weight="8">onboard epv user</Keyword>
+			<Keyword Weight="15">add-vpasepvuser</Keyword>
+			<Keyword Weight="10">epv user</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddIdentityRole" Command="Add-VPASIdentityRole" Category="Identity">
+		<Description>Resolve prompts that refer to add operations for Identity Role.</Description>
+		<Keywords>
+			<Keyword Weight="12">add identity role</Keyword>
+			<Keyword Weight="8">create identity role</Keyword>
+			<Keyword Weight="8">new identity role</Keyword>
+			<Keyword Weight="8">onboard identity role</Keyword>
+			<Keyword Weight="15">add-vpasidentityrole</Keyword>
+			<Keyword Weight="10">identity role</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddIdentitySecurityQuestionAdmin" Command="Add-VPASIdentitySecurityQuestionAdmin" Category="Identity">
+		<Description>Resolve prompts that refer to add operations for Identity Security Question Admin.</Description>
+		<Keywords>
+			<Keyword Weight="12">add identity security question admin</Keyword>
+			<Keyword Weight="8">create identity security question admin</Keyword>
+			<Keyword Weight="8">new identity security question admin</Keyword>
+			<Keyword Weight="8">onboard identity security question admin</Keyword>
+			<Keyword Weight="15">add-vpasidentitysecurityquestionadmin</Keyword>
+			<Keyword Weight="10">identity security question admin</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddIdentityUserSecurityQuestions" Command="Add-VPASIdentityUserSecurityQuestions" Category="Identity">
+		<Description>Resolve prompts that refer to add operations for Identity User Security Questions.</Description>
+		<Keywords>
+			<Keyword Weight="12">add identity user security questions</Keyword>
+			<Keyword Weight="8">create identity user security questions</Keyword>
+			<Keyword Weight="8">new identity user security questions</Keyword>
+			<Keyword Weight="8">onboard identity user security questions</Keyword>
+			<Keyword Weight="15">add-vpasidentityusersecurityquestions</Keyword>
+			<Keyword Weight="10">identity user security questions</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddMemberEPVGroup" Command="Add-VPASMemberEPVGroup" Category="EPV">
+		<Description>Resolve prompts that refer to add operations for Member EPV Group.</Description>
+		<Keywords>
+			<Keyword Weight="12">add member epv group</Keyword>
+			<Keyword Weight="8">create member epv group</Keyword>
+			<Keyword Weight="8">new member epv group</Keyword>
+			<Keyword Weight="8">onboard member epv group</Keyword>
+			<Keyword Weight="15">add-vpasmemberepvgroup</Keyword>
+			<Keyword Weight="10">member epv group</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddSafe" Command="Add-VPASSafe" Category="Safes">
+		<Description>Resolve prompts that refer to add operations for Safe.</Description>
+		<Keywords>
+			<Keyword Weight="12">add safe</Keyword>
+			<Keyword Weight="8">create safe</Keyword>
+			<Keyword Weight="8">new safe</Keyword>
+			<Keyword Weight="8">onboard safe</Keyword>
+			<Keyword Weight="15">add-vpassafe</Keyword>
+			<Keyword Weight="10">safe</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddSafeMember" Command="Add-VPASSafeMember" Category="Safes">
+		<Description>Resolve prompts that refer to add operations for Safe Member.</Description>
+		<Keywords>
+			<Keyword Weight="12">add safe member</Keyword>
+			<Keyword Weight="8">create safe member</Keyword>
+			<Keyword Weight="8">new safe member</Keyword>
+			<Keyword Weight="8">onboard safe member</Keyword>
+			<Keyword Weight="15">add-vpassafemember</Keyword>
+			<Keyword Weight="10">safe member</Keyword>
+			<Keyword Weight="12">safe permissions</Keyword>
+			<Keyword Weight="11">who has access to safe</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="ApproveIncomingRequest" Command="Approve-VPASIncomingRequest" Category="General">
+		<Description>Resolve prompts that refer to approve operations for Incoming Request.</Description>
+		<Keywords>
+			<Keyword Weight="12">approve incoming request</Keyword>
+			<Keyword Weight="8">accept incoming request</Keyword>
+			<Keyword Weight="8">allow incoming request</Keyword>
+			<Keyword Weight="15">approve-vpasincomingrequest</Keyword>
+			<Keyword Weight="10">incoming request</Keyword>
+			<Keyword Weight="10">pending requests</Keyword>
+			<Keyword Weight="10">access request</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="ConfirmBulkFile" Command="Confirm-VPASBulkFile" Category="General">
+		<Description>Resolve prompts that refer to confirm operations for Bulk File.</Description>
+		<Keywords>
+			<Keyword Weight="12">confirm bulk file</Keyword>
+			<Keyword Weight="8">validate bulk file</Keyword>
+			<Keyword Weight="8">check bulk file</Keyword>
+			<Keyword Weight="15">confirm-vpasbulkfile</Keyword>
+			<Keyword Weight="10">bulk file</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="CopyGroupPlatform" Command="Copy-VPASGroupPlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to copy operations for Group Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">copy group platform</Keyword>
+			<Keyword Weight="8">clone group platform</Keyword>
+			<Keyword Weight="8">duplicate group platform</Keyword>
+			<Keyword Weight="15">copy-vpasgroupplatform</Keyword>
+			<Keyword Weight="10">group platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="CopyPlatform" Command="Copy-VPASPlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to copy operations for Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">copy platform</Keyword>
+			<Keyword Weight="8">clone platform</Keyword>
+			<Keyword Weight="8">duplicate platform</Keyword>
+			<Keyword Weight="15">copy-vpasplatform</Keyword>
+			<Keyword Weight="10">platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="CopyRotationalPlatform" Command="Copy-VPASRotationalPlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to copy operations for Rotational Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">copy rotational platform</Keyword>
+			<Keyword Weight="8">clone rotational platform</Keyword>
+			<Keyword Weight="8">duplicate rotational platform</Keyword>
+			<Keyword Weight="15">copy-vpasrotationalplatform</Keyword>
+			<Keyword Weight="10">rotational platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="CopyUsagePlatform" Command="Copy-VPASUsagePlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to copy operations for Usage Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">copy usage platform</Keyword>
+			<Keyword Weight="8">clone usage platform</Keyword>
+			<Keyword Weight="8">duplicate usage platform</Keyword>
+			<Keyword Weight="15">copy-vpasusageplatform</Keyword>
+			<Keyword Weight="10">usage platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="DenyIncomingRequest" Command="Deny-VPASIncomingRequest" Category="General">
+		<Description>Resolve prompts that refer to deny operations for Incoming Request.</Description>
+		<Keywords>
+			<Keyword Weight="12">deny incoming request</Keyword>
+			<Keyword Weight="8">reject incoming request</Keyword>
+			<Keyword Weight="8">decline incoming request</Keyword>
+			<Keyword Weight="15">deny-vpasincomingrequest</Keyword>
+			<Keyword Weight="10">incoming request</Keyword>
+			<Keyword Weight="10">pending requests</Keyword>
+			<Keyword Weight="10">access request</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="DisableCustomTheme" Command="Disable-VPASCustomTheme" Category="Themes">
+		<Description>Resolve prompts that refer to disable operations for Custom Theme.</Description>
+		<Keywords>
+			<Keyword Weight="12">disable custom theme</Keyword>
+			<Keyword Weight="8">turn off custom theme</Keyword>
+			<Keyword Weight="8">deactivate custom theme</Keyword>
+			<Keyword Weight="15">disable-vpascustomtheme</Keyword>
+			<Keyword Weight="10">custom theme</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="DisableEPVUser" Command="Disable-VPASEPVUser" Category="EPV">
+		<Description>Resolve prompts that refer to disable operations for EPV User.</Description>
+		<Keywords>
+			<Keyword Weight="12">disable epv user</Keyword>
+			<Keyword Weight="8">turn off epv user</Keyword>
+			<Keyword Weight="8">deactivate epv user</Keyword>
+			<Keyword Weight="15">disable-vpasepvuser</Keyword>
+			<Keyword Weight="10">epv user</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="DisableGroupPlatform" Command="Disable-VPASGroupPlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to disable operations for Group Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">disable group platform</Keyword>
+			<Keyword Weight="8">turn off group platform</Keyword>
+			<Keyword Weight="8">deactivate group platform</Keyword>
+			<Keyword Weight="15">disable-vpasgroupplatform</Keyword>
+			<Keyword Weight="10">group platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="DisablePlatform" Command="Disable-VPASPlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to disable operations for Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">disable platform</Keyword>
+			<Keyword Weight="8">turn off platform</Keyword>
+			<Keyword Weight="8">deactivate platform</Keyword>
+			<Keyword Weight="15">disable-vpasplatform</Keyword>
+			<Keyword Weight="10">platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="DisableRotationalPlatform" Command="Disable-VPASRotationalPlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to disable operations for Rotational Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">disable rotational platform</Keyword>
+			<Keyword Weight="8">turn off rotational platform</Keyword>
+			<Keyword Weight="8">deactivate rotational platform</Keyword>
+			<Keyword Weight="15">disable-vpasrotationalplatform</Keyword>
+			<Keyword Weight="10">rotational platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="EnableCustomTheme" Command="Enable-VPASCustomTheme" Category="Themes">
+		<Description>Resolve prompts that refer to enable operations for Custom Theme.</Description>
+		<Keywords>
+			<Keyword Weight="12">enable custom theme</Keyword>
+			<Keyword Weight="8">turn on custom theme</Keyword>
+			<Keyword Weight="8">activate custom theme</Keyword>
+			<Keyword Weight="15">enable-vpascustomtheme</Keyword>
+			<Keyword Weight="10">custom theme</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="EnableEPVUser" Command="Enable-VPASEPVUser" Category="EPV">
+		<Description>Resolve prompts that refer to enable operations for EPV User.</Description>
+		<Keywords>
+			<Keyword Weight="12">enable epv user</Keyword>
+			<Keyword Weight="8">turn on epv user</Keyword>
+			<Keyword Weight="8">activate epv user</Keyword>
+			<Keyword Weight="15">enable-vpasepvuser</Keyword>
+			<Keyword Weight="10">epv user</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="EnableGroupPlatform" Command="Enable-VPASGroupPlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to enable operations for Group Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">enable group platform</Keyword>
+			<Keyword Weight="8">turn on group platform</Keyword>
+			<Keyword Weight="8">activate group platform</Keyword>
+			<Keyword Weight="15">enable-vpasgroupplatform</Keyword>
+			<Keyword Weight="10">group platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="EnablePlatform" Command="Enable-VPASPlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to enable operations for Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">enable platform</Keyword>
+			<Keyword Weight="8">turn on platform</Keyword>
+			<Keyword Weight="8">activate platform</Keyword>
+			<Keyword Weight="15">enable-vpasplatform</Keyword>
+			<Keyword Weight="10">platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="EnableRotationalPlatform" Command="Enable-VPASRotationalPlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to enable operations for Rotational Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">enable rotational platform</Keyword>
+			<Keyword Weight="8">turn on rotational platform</Keyword>
+			<Keyword Weight="8">activate rotational platform</Keyword>
+			<Keyword Weight="15">enable-vpasrotationalplatform</Keyword>
+			<Keyword Weight="10">rotational platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="ExportPlatform" Command="Export-VPASPlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to export operations for Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">export platform</Keyword>
+			<Keyword Weight="8">download platform</Keyword>
+			<Keyword Weight="8">backup platform</Keyword>
+			<Keyword Weight="15">export-vpasplatform</Keyword>
+			<Keyword Weight="10">platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="FindTargetValue" Command="Find-VPASTargetValue" Category="General">
+		<Description>Resolve prompts that refer to find operations for Target Value.</Description>
+		<Keywords>
+			<Keyword Weight="12">find target value</Keyword>
+			<Keyword Weight="8">search target value</Keyword>
+			<Keyword Weight="8">lookup target value</Keyword>
+			<Keyword Weight="15">find-vpastargetvalue</Keyword>
+			<Keyword Weight="10">target value</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAccountActivity" Command="Get-VPASAccountActivity" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for Account Activity.</Description>
+		<Keywords>
+			<Keyword Weight="12">get account activity</Keyword>
+			<Keyword Weight="8">show account activity</Keyword>
+			<Keyword Weight="8">list account activity</Keyword>
+			<Keyword Weight="8">retrieve account activity</Keyword>
+			<Keyword Weight="15">get-vpasaccountactivity</Keyword>
+			<Keyword Weight="10">account activity</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAccountCompliance" Command="Get-VPASAccountCompliance" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for Account Compliance.</Description>
+		<Keywords>
+			<Keyword Weight="12">get account compliance</Keyword>
+			<Keyword Weight="8">show account compliance</Keyword>
+			<Keyword Weight="8">list account compliance</Keyword>
+			<Keyword Weight="8">retrieve account compliance</Keyword>
+			<Keyword Weight="15">get-vpasaccountcompliance</Keyword>
+			<Keyword Weight="10">account compliance</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAccountDetails" Command="Get-VPASAccountDetails" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for Account Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get account details</Keyword>
+			<Keyword Weight="8">show account details</Keyword>
+			<Keyword Weight="8">list account details</Keyword>
+			<Keyword Weight="8">retrieve account details</Keyword>
+			<Keyword Weight="15">get-vpasaccountdetails</Keyword>
+			<Keyword Weight="10">account details</Keyword>
+			<Keyword Weight="10">get account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAccountDetailsExtended" Command="Get-VPASAccountDetailsExtended" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for Account Details Extended.</Description>
+		<Keywords>
+			<Keyword Weight="12">get account details extended</Keyword>
+			<Keyword Weight="8">show account details extended</Keyword>
+			<Keyword Weight="8">list account details extended</Keyword>
+			<Keyword Weight="8">retrieve account details extended</Keyword>
+			<Keyword Weight="15">get-vpasaccountdetailsextended</Keyword>
+			<Keyword Weight="10">account details extended</Keyword>
+			<Keyword Weight="12">account details</Keyword>
+			<Keyword Weight="10">get account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAccountGroupMembers" Command="Get-VPASAccountGroupMembers" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for Account Group Members.</Description>
+		<Keywords>
+			<Keyword Weight="12">get account group members</Keyword>
+			<Keyword Weight="8">show account group members</Keyword>
+			<Keyword Weight="8">list account group members</Keyword>
+			<Keyword Weight="8">retrieve account group members</Keyword>
+			<Keyword Weight="15">get-vpasaccountgroupmembers</Keyword>
+			<Keyword Weight="10">account group members</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAccountGroups" Command="Get-VPASAccountGroups" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for Account Groups.</Description>
+		<Keywords>
+			<Keyword Weight="12">get account groups</Keyword>
+			<Keyword Weight="8">show account groups</Keyword>
+			<Keyword Weight="8">list account groups</Keyword>
+			<Keyword Weight="8">retrieve account groups</Keyword>
+			<Keyword Weight="15">get-vpasaccountgroups</Keyword>
+			<Keyword Weight="10">account groups</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAccountPrivateSSHKey" Command="Get-VPASAccountPrivateSSHKey" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for Account Private SSH Key.</Description>
+		<Keywords>
+			<Keyword Weight="12">get account private ssh key</Keyword>
+			<Keyword Weight="8">show account private ssh key</Keyword>
+			<Keyword Weight="8">list account private ssh key</Keyword>
+			<Keyword Weight="8">retrieve account private ssh key</Keyword>
+			<Keyword Weight="15">get-vpasaccountprivatesshkey</Keyword>
+			<Keyword Weight="10">account private ssh key</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAccountRequestDetails" Command="Get-VPASAccountRequestDetails" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for Account Request Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get account request details</Keyword>
+			<Keyword Weight="8">show account request details</Keyword>
+			<Keyword Weight="8">list account request details</Keyword>
+			<Keyword Weight="8">retrieve account request details</Keyword>
+			<Keyword Weight="15">get-vpasaccountrequestdetails</Keyword>
+			<Keyword Weight="10">account request details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetActiveSessionActivities" Command="Get-VPASActiveSessionActivities" Category="Sessions">
+		<Description>Resolve prompts that refer to get operations for Active Session Activities.</Description>
+		<Keywords>
+			<Keyword Weight="12">get active session activities</Keyword>
+			<Keyword Weight="8">show active session activities</Keyword>
+			<Keyword Weight="8">list active session activities</Keyword>
+			<Keyword Weight="8">retrieve active session activities</Keyword>
+			<Keyword Weight="15">get-vpasactivesessionactivities</Keyword>
+			<Keyword Weight="10">active session activities</Keyword>
+			<Keyword Weight="10">psm session</Keyword>
+			<Keyword Weight="10">active session</Keyword>
+			<Keyword Weight="9">recording</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetActiveSessionProperties" Command="Get-VPASActiveSessionProperties" Category="Sessions">
+		<Description>Resolve prompts that refer to get operations for Active Session Properties.</Description>
+		<Keywords>
+			<Keyword Weight="12">get active session properties</Keyword>
+			<Keyword Weight="8">show active session properties</Keyword>
+			<Keyword Weight="8">list active session properties</Keyword>
+			<Keyword Weight="8">retrieve active session properties</Keyword>
+			<Keyword Weight="15">get-vpasactivesessionproperties</Keyword>
+			<Keyword Weight="10">active session properties</Keyword>
+			<Keyword Weight="10">psm session</Keyword>
+			<Keyword Weight="10">active session</Keyword>
+			<Keyword Weight="9">recording</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetActiveSessions" Command="Get-VPASActiveSessions" Category="Sessions">
+		<Description>Resolve prompts that refer to get operations for Active Sessions.</Description>
+		<Keywords>
+			<Keyword Weight="12">get active sessions</Keyword>
+			<Keyword Weight="8">show active sessions</Keyword>
+			<Keyword Weight="8">list active sessions</Keyword>
+			<Keyword Weight="8">retrieve active sessions</Keyword>
+			<Keyword Weight="15">get-vpasactivesessions</Keyword>
+			<Keyword Weight="10">active sessions</Keyword>
+			<Keyword Weight="10">psm session</Keyword>
+			<Keyword Weight="10">active session</Keyword>
+			<Keyword Weight="9">recording</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllAccountRequests" Command="Get-VPASAllAccountRequests" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for All Account Requests.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all account requests</Keyword>
+			<Keyword Weight="8">show all account requests</Keyword>
+			<Keyword Weight="8">list all account requests</Keyword>
+			<Keyword Weight="8">retrieve all account requests</Keyword>
+			<Keyword Weight="15">get-vpasallaccountrequests</Keyword>
+			<Keyword Weight="10">all account requests</Keyword>
+			<Keyword Weight="9">account requests</Keyword>
+			<Keyword Weight="8">get account requests</Keyword>
+			<Keyword Weight="8">show account requests</Keyword>
+			<Keyword Weight="8">list account requests</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllAccounts" Command="Get-VPASAllAccounts" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for All Accounts.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all accounts</Keyword>
+			<Keyword Weight="8">show all accounts</Keyword>
+			<Keyword Weight="8">list all accounts</Keyword>
+			<Keyword Weight="8">retrieve all accounts</Keyword>
+			<Keyword Weight="15">get-vpasallaccounts</Keyword>
+			<Keyword Weight="10">all accounts</Keyword>
+			<Keyword Weight="9">accounts</Keyword>
+			<Keyword Weight="8">get accounts</Keyword>
+			<Keyword Weight="8">show accounts</Keyword>
+			<Keyword Weight="8">list accounts</Keyword>
+			<Keyword Weight="10">export accounts</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllActiveSessions" Command="Get-VPASAllActiveSessions" Category="Sessions">
+		<Description>Resolve prompts that refer to get operations for All Active Sessions.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all active sessions</Keyword>
+			<Keyword Weight="8">show all active sessions</Keyword>
+			<Keyword Weight="8">list all active sessions</Keyword>
+			<Keyword Weight="8">retrieve all active sessions</Keyword>
+			<Keyword Weight="15">get-vpasallactivesessions</Keyword>
+			<Keyword Weight="10">all active sessions</Keyword>
+			<Keyword Weight="9">active sessions</Keyword>
+			<Keyword Weight="8">get active sessions</Keyword>
+			<Keyword Weight="8">show active sessions</Keyword>
+			<Keyword Weight="8">list active sessions</Keyword>
+			<Keyword Weight="10">psm session</Keyword>
+			<Keyword Weight="10">active session</Keyword>
+			<Keyword Weight="9">recording</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllApplications" Command="Get-VPASAllApplications" Category="Applications">
+		<Description>Resolve prompts that refer to get operations for All Applications.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all applications</Keyword>
+			<Keyword Weight="8">show all applications</Keyword>
+			<Keyword Weight="8">list all applications</Keyword>
+			<Keyword Weight="8">retrieve all applications</Keyword>
+			<Keyword Weight="15">get-vpasallapplications</Keyword>
+			<Keyword Weight="10">all applications</Keyword>
+			<Keyword Weight="9">applications</Keyword>
+			<Keyword Weight="8">get applications</Keyword>
+			<Keyword Weight="8">show applications</Keyword>
+			<Keyword Weight="8">list applications</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllConnectionComponents" Command="Get-VPASAllConnectionComponents" Category="General">
+		<Description>Resolve prompts that refer to get operations for All Connection Components.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all connection components</Keyword>
+			<Keyword Weight="8">show all connection components</Keyword>
+			<Keyword Weight="8">list all connection components</Keyword>
+			<Keyword Weight="8">retrieve all connection components</Keyword>
+			<Keyword Weight="15">get-vpasallconnectioncomponents</Keyword>
+			<Keyword Weight="10">all connection components</Keyword>
+			<Keyword Weight="9">connection components</Keyword>
+			<Keyword Weight="8">get connection components</Keyword>
+			<Keyword Weight="8">show connection components</Keyword>
+			<Keyword Weight="8">list connection components</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllCustomThemes" Command="Get-VPASAllCustomThemes" Category="Themes">
+		<Description>Resolve prompts that refer to get operations for All Custom Themes.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all custom themes</Keyword>
+			<Keyword Weight="8">show all custom themes</Keyword>
+			<Keyword Weight="8">list all custom themes</Keyword>
+			<Keyword Weight="8">retrieve all custom themes</Keyword>
+			<Keyword Weight="15">get-vpasallcustomthemes</Keyword>
+			<Keyword Weight="10">all custom themes</Keyword>
+			<Keyword Weight="9">custom themes</Keyword>
+			<Keyword Weight="8">get custom themes</Keyword>
+			<Keyword Weight="8">show custom themes</Keyword>
+			<Keyword Weight="8">list custom themes</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllDirectories" Command="Get-VPASAllDirectories" Category="General">
+		<Description>Resolve prompts that refer to get operations for All Directories.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all directories</Keyword>
+			<Keyword Weight="8">show all directories</Keyword>
+			<Keyword Weight="8">list all directories</Keyword>
+			<Keyword Weight="8">retrieve all directories</Keyword>
+			<Keyword Weight="15">get-vpasalldirectories</Keyword>
+			<Keyword Weight="10">all directories</Keyword>
+			<Keyword Weight="9">directories</Keyword>
+			<Keyword Weight="8">get directories</Keyword>
+			<Keyword Weight="8">show directories</Keyword>
+			<Keyword Weight="8">list directories</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllDiscoveredAccounts" Command="Get-VPASAllDiscoveredAccounts" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for All Discovered Accounts.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all discovered accounts</Keyword>
+			<Keyword Weight="8">show all discovered accounts</Keyword>
+			<Keyword Weight="8">list all discovered accounts</Keyword>
+			<Keyword Weight="8">retrieve all discovered accounts</Keyword>
+			<Keyword Weight="15">get-vpasalldiscoveredaccounts</Keyword>
+			<Keyword Weight="10">all discovered accounts</Keyword>
+			<Keyword Weight="9">discovered accounts</Keyword>
+			<Keyword Weight="8">get discovered accounts</Keyword>
+			<Keyword Weight="8">show discovered accounts</Keyword>
+			<Keyword Weight="8">list discovered accounts</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllEPVGroups" Command="Get-VPASAllEPVGroups" Category="EPV">
+		<Description>Resolve prompts that refer to get operations for All EPV Groups.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all epv groups</Keyword>
+			<Keyword Weight="8">show all epv groups</Keyword>
+			<Keyword Weight="8">list all epv groups</Keyword>
+			<Keyword Weight="8">retrieve all epv groups</Keyword>
+			<Keyword Weight="15">get-vpasallepvgroups</Keyword>
+			<Keyword Weight="10">all epv groups</Keyword>
+			<Keyword Weight="9">epv groups</Keyword>
+			<Keyword Weight="8">get epv groups</Keyword>
+			<Keyword Weight="8">show epv groups</Keyword>
+			<Keyword Weight="8">list epv groups</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllEPVUsers" Command="Get-VPASAllEPVUsers" Category="EPV">
+		<Description>Resolve prompts that refer to get operations for All EPV Users.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all epv users</Keyword>
+			<Keyword Weight="8">show all epv users</Keyword>
+			<Keyword Weight="8">list all epv users</Keyword>
+			<Keyword Weight="8">retrieve all epv users</Keyword>
+			<Keyword Weight="15">get-vpasallepvusers</Keyword>
+			<Keyword Weight="10">all epv users</Keyword>
+			<Keyword Weight="9">epv users</Keyword>
+			<Keyword Weight="8">get epv users</Keyword>
+			<Keyword Weight="8">show epv users</Keyword>
+			<Keyword Weight="8">list epv users</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllGroupPlatforms" Command="Get-VPASAllGroupPlatforms" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for All Group Platforms.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all group platforms</Keyword>
+			<Keyword Weight="8">show all group platforms</Keyword>
+			<Keyword Weight="8">list all group platforms</Keyword>
+			<Keyword Weight="8">retrieve all group platforms</Keyword>
+			<Keyword Weight="15">get-vpasallgroupplatforms</Keyword>
+			<Keyword Weight="10">all group platforms</Keyword>
+			<Keyword Weight="9">group platforms</Keyword>
+			<Keyword Weight="8">get group platforms</Keyword>
+			<Keyword Weight="8">show group platforms</Keyword>
+			<Keyword Weight="8">list group platforms</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllIncomingRequests" Command="Get-VPASAllIncomingRequests" Category="General">
+		<Description>Resolve prompts that refer to get operations for All Incoming Requests.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all incoming requests</Keyword>
+			<Keyword Weight="8">show all incoming requests</Keyword>
+			<Keyword Weight="8">list all incoming requests</Keyword>
+			<Keyword Weight="8">retrieve all incoming requests</Keyword>
+			<Keyword Weight="15">get-vpasallincomingrequests</Keyword>
+			<Keyword Weight="10">all incoming requests</Keyword>
+			<Keyword Weight="9">incoming requests</Keyword>
+			<Keyword Weight="8">get incoming requests</Keyword>
+			<Keyword Weight="8">show incoming requests</Keyword>
+			<Keyword Weight="8">list incoming requests</Keyword>
+			<Keyword Weight="10">pending requests</Keyword>
+			<Keyword Weight="10">access request</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllowedIPs" Command="Get-VPASAllowedIPs" Category="General">
+		<Description>Resolve prompts that refer to get operations for Allowed I Ps.</Description>
+		<Keywords>
+			<Keyword Weight="12">get allowed i ps</Keyword>
+			<Keyword Weight="8">show allowed i ps</Keyword>
+			<Keyword Weight="8">list allowed i ps</Keyword>
+			<Keyword Weight="8">retrieve allowed i ps</Keyword>
+			<Keyword Weight="15">get-vpasallowedips</Keyword>
+			<Keyword Weight="10">allowed i ps</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllowedReferrer" Command="Get-VPASAllowedReferrer" Category="General">
+		<Description>Resolve prompts that refer to get operations for Allowed Referrer.</Description>
+		<Keywords>
+			<Keyword Weight="12">get allowed referrer</Keyword>
+			<Keyword Weight="8">show allowed referrer</Keyword>
+			<Keyword Weight="8">list allowed referrer</Keyword>
+			<Keyword Weight="8">retrieve allowed referrer</Keyword>
+			<Keyword Weight="15">get-vpasallowedreferrer</Keyword>
+			<Keyword Weight="10">allowed referrer</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllPlatforms" Command="Get-VPASAllPlatforms" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for All Platforms.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all platforms</Keyword>
+			<Keyword Weight="8">show all platforms</Keyword>
+			<Keyword Weight="8">list all platforms</Keyword>
+			<Keyword Weight="8">retrieve all platforms</Keyword>
+			<Keyword Weight="15">get-vpasallplatforms</Keyword>
+			<Keyword Weight="10">all platforms</Keyword>
+			<Keyword Weight="9">platforms</Keyword>
+			<Keyword Weight="8">get platforms</Keyword>
+			<Keyword Weight="8">show platforms</Keyword>
+			<Keyword Weight="8">list platforms</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllPSMServers" Command="Get-VPASAllPSMServers" Category="PSM">
+		<Description>Resolve prompts that refer to get operations for All PSM Servers.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all psm servers</Keyword>
+			<Keyword Weight="8">show all psm servers</Keyword>
+			<Keyword Weight="8">list all psm servers</Keyword>
+			<Keyword Weight="8">retrieve all psm servers</Keyword>
+			<Keyword Weight="15">get-vpasallpsmservers</Keyword>
+			<Keyword Weight="10">all psm servers</Keyword>
+			<Keyword Weight="9">psm servers</Keyword>
+			<Keyword Weight="8">get psm servers</Keyword>
+			<Keyword Weight="8">show psm servers</Keyword>
+			<Keyword Weight="8">list psm servers</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllPSMSessions" Command="Get-VPASAllPSMSessions" Category="PSM">
+		<Description>Resolve prompts that refer to get operations for All PSM Sessions.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all psm sessions</Keyword>
+			<Keyword Weight="8">show all psm sessions</Keyword>
+			<Keyword Weight="8">list all psm sessions</Keyword>
+			<Keyword Weight="8">retrieve all psm sessions</Keyword>
+			<Keyword Weight="15">get-vpasallpsmsessions</Keyword>
+			<Keyword Weight="10">all psm sessions</Keyword>
+			<Keyword Weight="9">psm sessions</Keyword>
+			<Keyword Weight="8">get psm sessions</Keyword>
+			<Keyword Weight="8">show psm sessions</Keyword>
+			<Keyword Weight="8">list psm sessions</Keyword>
+			<Keyword Weight="10">psm session</Keyword>
+			<Keyword Weight="10">active session</Keyword>
+			<Keyword Weight="9">recording</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllRotationalPlatforms" Command="Get-VPASAllRotationalPlatforms" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for All Rotational Platforms.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all rotational platforms</Keyword>
+			<Keyword Weight="8">show all rotational platforms</Keyword>
+			<Keyword Weight="8">list all rotational platforms</Keyword>
+			<Keyword Weight="8">retrieve all rotational platforms</Keyword>
+			<Keyword Weight="15">get-vpasallrotationalplatforms</Keyword>
+			<Keyword Weight="10">all rotational platforms</Keyword>
+			<Keyword Weight="9">rotational platforms</Keyword>
+			<Keyword Weight="8">get rotational platforms</Keyword>
+			<Keyword Weight="8">show rotational platforms</Keyword>
+			<Keyword Weight="8">list rotational platforms</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllSafes" Command="Get-VPASAllSafes" Category="Safes">
+		<Description>Resolve prompts that refer to get operations for All Safes.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all safes</Keyword>
+			<Keyword Weight="8">show all safes</Keyword>
+			<Keyword Weight="8">list all safes</Keyword>
+			<Keyword Weight="8">retrieve all safes</Keyword>
+			<Keyword Weight="15">get-vpasallsafes</Keyword>
+			<Keyword Weight="10">all safes</Keyword>
+			<Keyword Weight="9">safes</Keyword>
+			<Keyword Weight="8">get safes</Keyword>
+			<Keyword Weight="8">show safes</Keyword>
+			<Keyword Weight="8">list safes</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllTargetPlatforms" Command="Get-VPASAllTargetPlatforms" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for All Target Platforms.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all target platforms</Keyword>
+			<Keyword Weight="8">show all target platforms</Keyword>
+			<Keyword Weight="8">list all target platforms</Keyword>
+			<Keyword Weight="8">retrieve all target platforms</Keyword>
+			<Keyword Weight="15">get-vpasalltargetplatforms</Keyword>
+			<Keyword Weight="10">all target platforms</Keyword>
+			<Keyword Weight="9">target platforms</Keyword>
+			<Keyword Weight="8">get target platforms</Keyword>
+			<Keyword Weight="8">show target platforms</Keyword>
+			<Keyword Weight="8">list target platforms</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllUsagePlatforms" Command="Get-VPASAllUsagePlatforms" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for All Usage Platforms.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all usage platforms</Keyword>
+			<Keyword Weight="8">show all usage platforms</Keyword>
+			<Keyword Weight="8">list all usage platforms</Keyword>
+			<Keyword Weight="8">retrieve all usage platforms</Keyword>
+			<Keyword Weight="15">get-vpasallusageplatforms</Keyword>
+			<Keyword Weight="10">all usage platforms</Keyword>
+			<Keyword Weight="9">usage platforms</Keyword>
+			<Keyword Weight="8">get usage platforms</Keyword>
+			<Keyword Weight="8">show usage platforms</Keyword>
+			<Keyword Weight="8">list usage platforms</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetApplicationAuthentications" Command="Get-VPASApplicationAuthentications" Category="Applications">
+		<Description>Resolve prompts that refer to get operations for Application Authentications.</Description>
+		<Keywords>
+			<Keyword Weight="12">get application authentications</Keyword>
+			<Keyword Weight="8">show application authentications</Keyword>
+			<Keyword Weight="8">list application authentications</Keyword>
+			<Keyword Weight="8">retrieve application authentications</Keyword>
+			<Keyword Weight="15">get-vpasapplicationauthentications</Keyword>
+			<Keyword Weight="10">application authentications</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetApplicationDetails" Command="Get-VPASApplicationDetails" Category="Applications">
+		<Description>Resolve prompts that refer to get operations for Application Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get application details</Keyword>
+			<Keyword Weight="8">show application details</Keyword>
+			<Keyword Weight="8">list application details</Keyword>
+			<Keyword Weight="8">retrieve application details</Keyword>
+			<Keyword Weight="15">get-vpasapplicationdetails</Keyword>
+			<Keyword Weight="10">application details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAuthenticationMethods" Command="Get-VPASAuthenticationMethods" Category="Authentication">
+		<Description>Resolve prompts that refer to get operations for Authentication Methods.</Description>
+		<Keywords>
+			<Keyword Weight="12">get authentication methods</Keyword>
+			<Keyword Weight="8">show authentication methods</Keyword>
+			<Keyword Weight="8">list authentication methods</Keyword>
+			<Keyword Weight="8">retrieve authentication methods</Keyword>
+			<Keyword Weight="15">get-vpasauthenticationmethods</Keyword>
+			<Keyword Weight="10">authentication methods</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetBulkTemplateFiles" Command="Get-VPASBulkTemplateFiles" Category="General">
+		<Description>Resolve prompts that refer to get operations for Bulk Template Files.</Description>
+		<Keywords>
+			<Keyword Weight="12">get bulk template files</Keyword>
+			<Keyword Weight="8">show bulk template files</Keyword>
+			<Keyword Weight="8">list bulk template files</Keyword>
+			<Keyword Weight="8">retrieve bulk template files</Keyword>
+			<Keyword Weight="15">get-vpasbulktemplatefiles</Keyword>
+			<Keyword Weight="10">bulk template files</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetCMAllComponents" Command="Get-VPASCMAllComponents" Category="ConnectorManagement">
+		<Description>Resolve prompts that refer to get operations for Connector Management All Components.</Description>
+		<Keywords>
+			<Keyword Weight="12">get connector management all components</Keyword>
+			<Keyword Weight="8">show connector management all components</Keyword>
+			<Keyword Weight="8">list connector management all components</Keyword>
+			<Keyword Weight="8">retrieve connector management all components</Keyword>
+			<Keyword Weight="15">get-vpascmallcomponents</Keyword>
+			<Keyword Weight="10">connector management all components</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetCMAllConnectorComponents" Command="Get-VPASCMAllConnectorComponents" Category="ConnectorManagement">
+		<Description>Resolve prompts that refer to get operations for Connector Management All Connector Components.</Description>
+		<Keywords>
+			<Keyword Weight="12">get connector management all connector components</Keyword>
+			<Keyword Weight="8">show connector management all connector components</Keyword>
+			<Keyword Weight="8">list connector management all connector components</Keyword>
+			<Keyword Weight="8">retrieve connector management all connector components</Keyword>
+			<Keyword Weight="15">get-vpascmallconnectorcomponents</Keyword>
+			<Keyword Weight="10">connector management all connector components</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetCMAllConnectorPools" Command="Get-VPASCMAllConnectorPools" Category="ConnectorManagement">
+		<Description>Resolve prompts that refer to get operations for Connector Management All Connector Pools.</Description>
+		<Keywords>
+			<Keyword Weight="12">get connector management all connector pools</Keyword>
+			<Keyword Weight="8">show connector management all connector pools</Keyword>
+			<Keyword Weight="8">list connector management all connector pools</Keyword>
+			<Keyword Weight="8">retrieve connector management all connector pools</Keyword>
+			<Keyword Weight="15">get-vpascmallconnectorpools</Keyword>
+			<Keyword Weight="10">connector management all connector pools</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetCMAllConnectors" Command="Get-VPASCMAllConnectors" Category="ConnectorManagement">
+		<Description>Resolve prompts that refer to get operations for Connector Management All Connectors.</Description>
+		<Keywords>
+			<Keyword Weight="12">get connector management all connectors</Keyword>
+			<Keyword Weight="8">show connector management all connectors</Keyword>
+			<Keyword Weight="8">list connector management all connectors</Keyword>
+			<Keyword Weight="8">retrieve connector management all connectors</Keyword>
+			<Keyword Weight="15">get-vpascmallconnectors</Keyword>
+			<Keyword Weight="10">connector management all connectors</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetCMComponentLogList" Command="Get-VPASCMComponentLogList" Category="ConnectorManagement">
+		<Description>Resolve prompts that refer to get operations for Connector Management Component Log List.</Description>
+		<Keywords>
+			<Keyword Weight="12">get connector management component log list</Keyword>
+			<Keyword Weight="8">show connector management component log list</Keyword>
+			<Keyword Weight="8">list connector management component log list</Keyword>
+			<Keyword Weight="8">retrieve connector management component log list</Keyword>
+			<Keyword Weight="15">get-vpascmcomponentloglist</Keyword>
+			<Keyword Weight="10">connector management component log list</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetCMComponentLogs" Command="Get-VPASCMComponentLogs" Category="ConnectorManagement">
+		<Description>Resolve prompts that refer to get operations for Connector Management Component Logs.</Description>
+		<Keywords>
+			<Keyword Weight="12">get connector management component logs</Keyword>
+			<Keyword Weight="8">show connector management component logs</Keyword>
+			<Keyword Weight="8">list connector management component logs</Keyword>
+			<Keyword Weight="8">retrieve connector management component logs</Keyword>
+			<Keyword Weight="15">get-vpascmcomponentlogs</Keyword>
+			<Keyword Weight="10">connector management component logs</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetCMConnectorComponentDetails" Command="Get-VPASCMConnectorComponentDetails" Category="ConnectorManagement">
+		<Description>Resolve prompts that refer to get operations for Connector Management Connector Component Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get connector management connector component details</Keyword>
+			<Keyword Weight="8">show connector management connector component details</Keyword>
+			<Keyword Weight="8">list connector management connector component details</Keyword>
+			<Keyword Weight="8">retrieve connector management connector component details</Keyword>
+			<Keyword Weight="15">get-vpascmconnectorcomponentdetails</Keyword>
+			<Keyword Weight="10">connector management connector component details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetCMConnectorDetails" Command="Get-VPASCMConnectorDetails" Category="ConnectorManagement">
+		<Description>Resolve prompts that refer to get operations for Connector Management Connector Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get connector management connector details</Keyword>
+			<Keyword Weight="8">show connector management connector details</Keyword>
+			<Keyword Weight="8">list connector management connector details</Keyword>
+			<Keyword Weight="8">retrieve connector management connector details</Keyword>
+			<Keyword Weight="15">get-vpascmconnectordetails</Keyword>
+			<Keyword Weight="10">connector management connector details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetCMConnectorPoolDetails" Command="Get-VPASCMConnectorPoolDetails" Category="ConnectorManagement">
+		<Description>Resolve prompts that refer to get operations for Connector Management Connector Pool Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get connector management connector pool details</Keyword>
+			<Keyword Weight="8">show connector management connector pool details</Keyword>
+			<Keyword Weight="8">list connector management connector pool details</Keyword>
+			<Keyword Weight="8">retrieve connector management connector pool details</Keyword>
+			<Keyword Weight="15">get-vpascmconnectorpooldetails</Keyword>
+			<Keyword Weight="10">connector management connector pool details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetCMConnectors" Command="Get-VPASCMConnectors" Category="ConnectorManagement">
+		<Description>Resolve prompts that refer to get operations for Connector Management Connectors.</Description>
+		<Keywords>
+			<Keyword Weight="12">get connector management connectors</Keyword>
+			<Keyword Weight="8">show connector management connectors</Keyword>
+			<Keyword Weight="8">list connector management connectors</Keyword>
+			<Keyword Weight="8">retrieve connector management connectors</Keyword>
+			<Keyword Weight="15">get-vpascmconnectors</Keyword>
+			<Keyword Weight="10">connector management connectors</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetCurrentCustomTheme" Command="Get-VPASCurrentCustomTheme" Category="Themes">
+		<Description>Resolve prompts that refer to get operations for Current Custom Theme.</Description>
+		<Keywords>
+			<Keyword Weight="12">get current custom theme</Keyword>
+			<Keyword Weight="8">show current custom theme</Keyword>
+			<Keyword Weight="8">list current custom theme</Keyword>
+			<Keyword Weight="8">retrieve current custom theme</Keyword>
+			<Keyword Weight="15">get-vpascurrentcustomtheme</Keyword>
+			<Keyword Weight="10">current custom theme</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetCurrentEPVUserDetails" Command="Get-VPASCurrentEPVUserDetails" Category="EPV">
+		<Description>Resolve prompts that refer to get operations for Current EPV User Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get current epv user details</Keyword>
+			<Keyword Weight="8">show current epv user details</Keyword>
+			<Keyword Weight="8">list current epv user details</Keyword>
+			<Keyword Weight="8">retrieve current epv user details</Keyword>
+			<Keyword Weight="15">get-vpascurrentepvuserdetails</Keyword>
+			<Keyword Weight="10">current epv user details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetCustomTheme" Command="Get-VPASCustomTheme" Category="Themes">
+		<Description>Resolve prompts that refer to get operations for Custom Theme.</Description>
+		<Keywords>
+			<Keyword Weight="12">get custom theme</Keyword>
+			<Keyword Weight="8">show custom theme</Keyword>
+			<Keyword Weight="8">list custom theme</Keyword>
+			<Keyword Weight="8">retrieve custom theme</Keyword>
+			<Keyword Weight="15">get-vpascustomtheme</Keyword>
+			<Keyword Weight="10">custom theme</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetDirectoryDetails" Command="Get-VPASDirectoryDetails" Category="Directories">
+		<Description>Resolve prompts that refer to get operations for Directory Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get directory details</Keyword>
+			<Keyword Weight="8">show directory details</Keyword>
+			<Keyword Weight="8">list directory details</Keyword>
+			<Keyword Weight="8">retrieve directory details</Keyword>
+			<Keyword Weight="15">get-vpasdirectorydetails</Keyword>
+			<Keyword Weight="10">directory details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetDirectoryMappingDetails" Command="Get-VPASDirectoryMappingDetails" Category="Directories">
+		<Description>Resolve prompts that refer to get operations for Directory Mapping Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get directory mapping details</Keyword>
+			<Keyword Weight="8">show directory mapping details</Keyword>
+			<Keyword Weight="8">list directory mapping details</Keyword>
+			<Keyword Weight="8">retrieve directory mapping details</Keyword>
+			<Keyword Weight="15">get-vpasdirectorymappingdetails</Keyword>
+			<Keyword Weight="10">directory mapping details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetDirectoryMappings" Command="Get-VPASDirectoryMappings" Category="Directories">
+		<Description>Resolve prompts that refer to get operations for Directory Mappings.</Description>
+		<Keywords>
+			<Keyword Weight="12">get directory mappings</Keyword>
+			<Keyword Weight="8">show directory mappings</Keyword>
+			<Keyword Weight="8">list directory mappings</Keyword>
+			<Keyword Weight="8">retrieve directory mappings</Keyword>
+			<Keyword Weight="15">get-vpasdirectorymappings</Keyword>
+			<Keyword Weight="10">directory mappings</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetDiscoveredAccounts" Command="Get-VPASDiscoveredAccounts" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for Discovered Accounts.</Description>
+		<Keywords>
+			<Keyword Weight="12">get discovered accounts</Keyword>
+			<Keyword Weight="8">show discovered accounts</Keyword>
+			<Keyword Weight="8">list discovered accounts</Keyword>
+			<Keyword Weight="8">retrieve discovered accounts</Keyword>
+			<Keyword Weight="15">get-vpasdiscoveredaccounts</Keyword>
+			<Keyword Weight="10">discovered accounts</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetDiscoveredAccountsDependencies" Command="Get-VPASDiscoveredAccountsDependencies" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for Discovered Accounts Dependencies.</Description>
+		<Keywords>
+			<Keyword Weight="12">get discovered accounts dependencies</Keyword>
+			<Keyword Weight="8">show discovered accounts dependencies</Keyword>
+			<Keyword Weight="8">list discovered accounts dependencies</Keyword>
+			<Keyword Weight="8">retrieve discovered accounts dependencies</Keyword>
+			<Keyword Weight="15">get-vpasdiscoveredaccountsdependencies</Keyword>
+			<Keyword Weight="10">discovered accounts dependencies</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSIAAllPolicies" Command="Get-VPASSIAAllPolicies" Category="SIA">
+		<Description>Resolve prompts that refer to get operations for SIA All Policies.</Description>
+		<Keywords>
+			<Keyword Weight="12">get sia all policies</Keyword>
+			<Keyword Weight="8">show sia all policies</Keyword>
+			<Keyword Weight="8">list sia all policies</Keyword>
+			<Keyword Weight="8">retrieve sia all policies</Keyword>
+			<Keyword Weight="15">get-vpassiaallpolicies</Keyword>
+			<Keyword Weight="10">sia all policies</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSIAAllStrongAccounts" Command="Get-VPASSIAAllStrongAccounts" Category="SIA">
+		<Description>Resolve prompts that refer to get operations for SIA All Strong Accounts.</Description>
+		<Keywords>
+			<Keyword Weight="12">get sia all strong accounts</Keyword>
+			<Keyword Weight="8">show sia all strong accounts</Keyword>
+			<Keyword Weight="8">list sia all strong accounts</Keyword>
+			<Keyword Weight="8">retrieve sia all strong accounts</Keyword>
+			<Keyword Weight="15">get-vpassiaallstrongaccounts</Keyword>
+			<Keyword Weight="10">sia all strong accounts</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSIAAllStrongAccountSets" Command="Get-VPASSIAAllStrongAccountSets" Category="SIA">
+		<Description>Resolve prompts that refer to get operations for SIA All Strong Account Sets.</Description>
+		<Keywords>
+			<Keyword Weight="12">get sia all strong account sets</Keyword>
+			<Keyword Weight="8">show sia all strong account sets</Keyword>
+			<Keyword Weight="8">list sia all strong account sets</Keyword>
+			<Keyword Weight="8">retrieve sia all strong account sets</Keyword>
+			<Keyword Weight="15">get-vpassiaallstrongaccountsets</Keyword>
+			<Keyword Weight="10">sia all strong account sets</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSIAPolicies" Command="Get-VPASSIAPolicies" Category="SIA">
+		<Description>Resolve prompts that refer to get operations for SIA Policies.</Description>
+		<Keywords>
+			<Keyword Weight="12">get sia policies</Keyword>
+			<Keyword Weight="8">show sia policies</Keyword>
+			<Keyword Weight="8">list sia policies</Keyword>
+			<Keyword Weight="8">retrieve sia policies</Keyword>
+			<Keyword Weight="15">get-vpassiapolicies</Keyword>
+			<Keyword Weight="10">sia policies</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSIAPolicyDetails" Command="Get-VPASSIAPolicyDetails" Category="SIA">
+		<Description>Resolve prompts that refer to get operations for SIA Policy Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get sia policy details</Keyword>
+			<Keyword Weight="8">show sia policy details</Keyword>
+			<Keyword Weight="8">list sia policy details</Keyword>
+			<Keyword Weight="8">retrieve sia policy details</Keyword>
+			<Keyword Weight="15">get-vpassiapolicydetails</Keyword>
+			<Keyword Weight="10">sia policy details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSIASettings" Command="Get-VPASSIASettings" Category="SIA">
+		<Description>Resolve prompts that refer to get operations for SIA Settings.</Description>
+		<Keywords>
+			<Keyword Weight="12">get sia settings</Keyword>
+			<Keyword Weight="8">show sia settings</Keyword>
+			<Keyword Weight="8">list sia settings</Keyword>
+			<Keyword Weight="8">retrieve sia settings</Keyword>
+			<Keyword Weight="15">get-vpassiasettings</Keyword>
+			<Keyword Weight="10">sia settings</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSIAStrongAccountDetails" Command="Get-VPASSIAStrongAccountDetails" Category="SIA">
+		<Description>Resolve prompts that refer to get operations for SIA Strong Account Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get sia strong account details</Keyword>
+			<Keyword Weight="8">show sia strong account details</Keyword>
+			<Keyword Weight="8">list sia strong account details</Keyword>
+			<Keyword Weight="8">retrieve sia strong account details</Keyword>
+			<Keyword Weight="15">get-vpassiastrongaccountdetails</Keyword>
+			<Keyword Weight="10">sia strong account details</Keyword>
+			<Keyword Weight="12">account details</Keyword>
+			<Keyword Weight="10">get account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSIAStrongAccounts" Command="Get-VPASSIAStrongAccounts" Category="SIA">
+		<Description>Resolve prompts that refer to get operations for SIA Strong Accounts.</Description>
+		<Keywords>
+			<Keyword Weight="12">get sia strong accounts</Keyword>
+			<Keyword Weight="8">show sia strong accounts</Keyword>
+			<Keyword Weight="8">list sia strong accounts</Keyword>
+			<Keyword Weight="8">retrieve sia strong accounts</Keyword>
+			<Keyword Weight="15">get-vpassiastrongaccounts</Keyword>
+			<Keyword Weight="10">sia strong accounts</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetEmptyPlatforms" Command="Get-VPASEmptyPlatforms" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for Empty Platforms.</Description>
+		<Keywords>
+			<Keyword Weight="12">get empty platforms</Keyword>
+			<Keyword Weight="8">show empty platforms</Keyword>
+			<Keyword Weight="8">list empty platforms</Keyword>
+			<Keyword Weight="8">retrieve empty platforms</Keyword>
+			<Keyword Weight="15">get-vpasemptyplatforms</Keyword>
+			<Keyword Weight="10">empty platforms</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetEmptySafes" Command="Get-VPASEmptySafes" Category="Safes">
+		<Description>Resolve prompts that refer to get operations for Empty Safes.</Description>
+		<Keywords>
+			<Keyword Weight="12">get empty safes</Keyword>
+			<Keyword Weight="8">show empty safes</Keyword>
+			<Keyword Weight="8">list empty safes</Keyword>
+			<Keyword Weight="8">retrieve empty safes</Keyword>
+			<Keyword Weight="15">get-vpasemptysafes</Keyword>
+			<Keyword Weight="10">empty safes</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetEPVGroupDetails" Command="Get-VPASEPVGroupDetails" Category="EPV">
+		<Description>Resolve prompts that refer to get operations for EPV Group Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get epv group details</Keyword>
+			<Keyword Weight="8">show epv group details</Keyword>
+			<Keyword Weight="8">list epv group details</Keyword>
+			<Keyword Weight="8">retrieve epv group details</Keyword>
+			<Keyword Weight="15">get-vpasepvgroupdetails</Keyword>
+			<Keyword Weight="10">epv group details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetEPVUserDetails" Command="Get-VPASEPVUserDetails" Category="EPV">
+		<Description>Resolve prompts that refer to get operations for EPV User Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get epv user details</Keyword>
+			<Keyword Weight="8">show epv user details</Keyword>
+			<Keyword Weight="8">list epv user details</Keyword>
+			<Keyword Weight="8">retrieve epv user details</Keyword>
+			<Keyword Weight="15">get-vpasepvuserdetails</Keyword>
+			<Keyword Weight="10">epv user details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetEPVUserDetailsSearch" Command="Get-VPASEPVUserDetailsSearch" Category="EPV">
+		<Description>Resolve prompts that refer to get operations for EPV User Details Search.</Description>
+		<Keywords>
+			<Keyword Weight="12">get epv user details search</Keyword>
+			<Keyword Weight="8">show epv user details search</Keyword>
+			<Keyword Weight="8">list epv user details search</Keyword>
+			<Keyword Weight="8">retrieve epv user details search</Keyword>
+			<Keyword Weight="15">get-vpasepvuserdetailssearch</Keyword>
+			<Keyword Weight="10">epv user details search</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetEPVUserTypes" Command="Get-VPASEPVUserTypes" Category="EPV">
+		<Description>Resolve prompts that refer to get operations for EPV User Types.</Description>
+		<Keywords>
+			<Keyword Weight="12">get epv user types</Keyword>
+			<Keyword Weight="8">show epv user types</Keyword>
+			<Keyword Weight="8">list epv user types</Keyword>
+			<Keyword Weight="8">retrieve epv user types</Keyword>
+			<Keyword Weight="15">get-vpasepvusertypes</Keyword>
+			<Keyword Weight="10">epv user types</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetGroupPlatformDetails" Command="Get-VPASGroupPlatformDetails" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for Group Platform Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get group platform details</Keyword>
+			<Keyword Weight="8">show group platform details</Keyword>
+			<Keyword Weight="8">list group platform details</Keyword>
+			<Keyword Weight="8">retrieve group platform details</Keyword>
+			<Keyword Weight="15">get-vpasgroupplatformdetails</Keyword>
+			<Keyword Weight="10">group platform details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetIdentityAdminSecurityQuestion" Command="Get-VPASIdentityAdminSecurityQuestion" Category="Identity">
+		<Description>Resolve prompts that refer to get operations for Identity Admin Security Question.</Description>
+		<Keywords>
+			<Keyword Weight="12">get identity admin security question</Keyword>
+			<Keyword Weight="8">show identity admin security question</Keyword>
+			<Keyword Weight="8">list identity admin security question</Keyword>
+			<Keyword Weight="8">retrieve identity admin security question</Keyword>
+			<Keyword Weight="15">get-vpasidentityadminsecurityquestion</Keyword>
+			<Keyword Weight="10">identity admin security question</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetIdentityAllAdminSecurityQuestions" Command="Get-VPASIdentityAllAdminSecurityQuestions" Category="Identity">
+		<Description>Resolve prompts that refer to get operations for Identity All Admin Security Questions.</Description>
+		<Keywords>
+			<Keyword Weight="12">get identity all admin security questions</Keyword>
+			<Keyword Weight="8">show identity all admin security questions</Keyword>
+			<Keyword Weight="8">list identity all admin security questions</Keyword>
+			<Keyword Weight="8">retrieve identity all admin security questions</Keyword>
+			<Keyword Weight="15">get-vpasidentityalladminsecurityquestions</Keyword>
+			<Keyword Weight="10">identity all admin security questions</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetIdentityAllRoles" Command="Get-VPASIdentityAllRoles" Category="Identity">
+		<Description>Resolve prompts that refer to get operations for Identity All Roles.</Description>
+		<Keywords>
+			<Keyword Weight="12">get identity all roles</Keyword>
+			<Keyword Weight="8">show identity all roles</Keyword>
+			<Keyword Weight="8">list identity all roles</Keyword>
+			<Keyword Weight="8">retrieve identity all roles</Keyword>
+			<Keyword Weight="15">get-vpasidentityallroles</Keyword>
+			<Keyword Weight="10">identity all roles</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetIdentityAllUsers" Command="Get-VPASIdentityAllUsers" Category="Identity">
+		<Description>Resolve prompts that refer to get operations for Identity All Users.</Description>
+		<Keywords>
+			<Keyword Weight="12">get identity all users</Keyword>
+			<Keyword Weight="8">show identity all users</Keyword>
+			<Keyword Weight="8">list identity all users</Keyword>
+			<Keyword Weight="8">retrieve identity all users</Keyword>
+			<Keyword Weight="15">get-vpasidentityallusers</Keyword>
+			<Keyword Weight="10">identity all users</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetIdentityCurrentUserDetails" Command="Get-VPASIdentityCurrentUserDetails" Category="Identity">
+		<Description>Resolve prompts that refer to get operations for Identity Current User Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get identity current user details</Keyword>
+			<Keyword Weight="8">show identity current user details</Keyword>
+			<Keyword Weight="8">list identity current user details</Keyword>
+			<Keyword Weight="8">retrieve identity current user details</Keyword>
+			<Keyword Weight="15">get-vpasidentitycurrentuserdetails</Keyword>
+			<Keyword Weight="10">identity current user details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetIdentityCurrentUserSecurityQuestions" Command="Get-VPASIdentityCurrentUserSecurityQuestions" Category="Identity">
+		<Description>Resolve prompts that refer to get operations for Identity Current User Security Questions.</Description>
+		<Keywords>
+			<Keyword Weight="12">get identity current user security questions</Keyword>
+			<Keyword Weight="8">show identity current user security questions</Keyword>
+			<Keyword Weight="8">list identity current user security questions</Keyword>
+			<Keyword Weight="8">retrieve identity current user security questions</Keyword>
+			<Keyword Weight="15">get-vpasidentitycurrentusersecurityquestions</Keyword>
+			<Keyword Weight="10">identity current user security questions</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetIdentityRoleDetails" Command="Get-VPASIdentityRoleDetails" Category="Identity">
+		<Description>Resolve prompts that refer to get operations for Identity Role Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get identity role details</Keyword>
+			<Keyword Weight="8">show identity role details</Keyword>
+			<Keyword Weight="8">list identity role details</Keyword>
+			<Keyword Weight="8">retrieve identity role details</Keyword>
+			<Keyword Weight="15">get-vpasidentityroledetails</Keyword>
+			<Keyword Weight="10">identity role details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetIdentityRoles" Command="Get-VPASIdentityRoles" Category="Identity">
+		<Description>Resolve prompts that refer to get operations for Identity Roles.</Description>
+		<Keywords>
+			<Keyword Weight="12">get identity roles</Keyword>
+			<Keyword Weight="8">show identity roles</Keyword>
+			<Keyword Weight="8">list identity roles</Keyword>
+			<Keyword Weight="8">retrieve identity roles</Keyword>
+			<Keyword Weight="15">get-vpasidentityroles</Keyword>
+			<Keyword Weight="10">identity roles</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetIdentityTenantDetails" Command="Get-VPASIdentityTenantDetails" Category="Identity">
+		<Description>Resolve prompts that refer to get operations for Identity Tenant Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get identity tenant details</Keyword>
+			<Keyword Weight="8">show identity tenant details</Keyword>
+			<Keyword Weight="8">list identity tenant details</Keyword>
+			<Keyword Weight="8">retrieve identity tenant details</Keyword>
+			<Keyword Weight="15">get-vpasidentitytenantdetails</Keyword>
+			<Keyword Weight="10">identity tenant details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetIdentityUserDetails" Command="Get-VPASIdentityUserDetails" Category="Identity">
+		<Description>Resolve prompts that refer to get operations for Identity User Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get identity user details</Keyword>
+			<Keyword Weight="8">show identity user details</Keyword>
+			<Keyword Weight="8">list identity user details</Keyword>
+			<Keyword Weight="8">retrieve identity user details</Keyword>
+			<Keyword Weight="15">get-vpasidentityuserdetails</Keyword>
+			<Keyword Weight="10">identity user details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetIdentityUserSecurityQuestions" Command="Get-VPASIdentityUserSecurityQuestions" Category="Identity">
+		<Description>Resolve prompts that refer to get operations for Identity User Security Questions.</Description>
+		<Keywords>
+			<Keyword Weight="12">get identity user security questions</Keyword>
+			<Keyword Weight="8">show identity user security questions</Keyword>
+			<Keyword Weight="8">list identity user security questions</Keyword>
+			<Keyword Weight="8">retrieve identity user security questions</Keyword>
+			<Keyword Weight="15">get-vpasidentityusersecurityquestions</Keyword>
+			<Keyword Weight="10">identity user security questions</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetIncomingRequestDetails" Command="Get-VPASIncomingRequestDetails" Category="General">
+		<Description>Resolve prompts that refer to get operations for Incoming Request Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get incoming request details</Keyword>
+			<Keyword Weight="8">show incoming request details</Keyword>
+			<Keyword Weight="8">list incoming request details</Keyword>
+			<Keyword Weight="8">retrieve incoming request details</Keyword>
+			<Keyword Weight="15">get-vpasincomingrequestdetails</Keyword>
+			<Keyword Weight="10">incoming request details</Keyword>
+			<Keyword Weight="10">pending requests</Keyword>
+			<Keyword Weight="10">access request</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetPasswordHistory" Command="Get-VPASPasswordHistory" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for Password History.</Description>
+		<Keywords>
+			<Keyword Weight="12">get password history</Keyword>
+			<Keyword Weight="8">show password history</Keyword>
+			<Keyword Weight="8">list password history</Keyword>
+			<Keyword Weight="8">retrieve password history</Keyword>
+			<Keyword Weight="15">get-vpaspasswordhistory</Keyword>
+			<Keyword Weight="10">password history</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetPasswordValue" Command="Get-VPASPasswordValue" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for Password Value.</Description>
+		<Keywords>
+			<Keyword Weight="12">get password value</Keyword>
+			<Keyword Weight="8">show password value</Keyword>
+			<Keyword Weight="8">list password value</Keyword>
+			<Keyword Weight="8">retrieve password value</Keyword>
+			<Keyword Weight="15">get-vpaspasswordvalue</Keyword>
+			<Keyword Weight="10">password value</Keyword>
+			<Keyword Weight="12">retrieve password</Keyword>
+			<Keyword Weight="12">get password</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetPlatformDetails" Command="Get-VPASPlatformDetails" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for Platform Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get platform details</Keyword>
+			<Keyword Weight="8">show platform details</Keyword>
+			<Keyword Weight="8">list platform details</Keyword>
+			<Keyword Weight="8">retrieve platform details</Keyword>
+			<Keyword Weight="15">get-vpasplatformdetails</Keyword>
+			<Keyword Weight="10">platform details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetPlatformDetailsSearch" Command="Get-VPASPlatformDetailsSearch" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for Platform Details Search.</Description>
+		<Keywords>
+			<Keyword Weight="12">get platform details search</Keyword>
+			<Keyword Weight="8">show platform details search</Keyword>
+			<Keyword Weight="8">list platform details search</Keyword>
+			<Keyword Weight="8">retrieve platform details search</Keyword>
+			<Keyword Weight="15">get-vpasplatformdetailssearch</Keyword>
+			<Keyword Weight="10">platform details search</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetPSMSessionActivities" Command="Get-VPASPSMSessionActivities" Category="PSM">
+		<Description>Resolve prompts that refer to get operations for PSM Session Activities.</Description>
+		<Keywords>
+			<Keyword Weight="12">get psm session activities</Keyword>
+			<Keyword Weight="8">show psm session activities</Keyword>
+			<Keyword Weight="8">list psm session activities</Keyword>
+			<Keyword Weight="8">retrieve psm session activities</Keyword>
+			<Keyword Weight="15">get-vpaspsmsessionactivities</Keyword>
+			<Keyword Weight="10">psm session activities</Keyword>
+			<Keyword Weight="10">psm session</Keyword>
+			<Keyword Weight="10">active session</Keyword>
+			<Keyword Weight="9">recording</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetPSMSessionDetails" Command="Get-VPASPSMSessionDetails" Category="PSM">
+		<Description>Resolve prompts that refer to get operations for PSM Session Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get psm session details</Keyword>
+			<Keyword Weight="8">show psm session details</Keyword>
+			<Keyword Weight="8">list psm session details</Keyword>
+			<Keyword Weight="8">retrieve psm session details</Keyword>
+			<Keyword Weight="15">get-vpaspsmsessiondetails</Keyword>
+			<Keyword Weight="10">psm session details</Keyword>
+			<Keyword Weight="10">psm session</Keyword>
+			<Keyword Weight="10">active session</Keyword>
+			<Keyword Weight="9">recording</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetPSMSessionProperties" Command="Get-VPASPSMSessionProperties" Category="PSM">
+		<Description>Resolve prompts that refer to get operations for PSM Session Properties.</Description>
+		<Keywords>
+			<Keyword Weight="12">get psm session properties</Keyword>
+			<Keyword Weight="8">show psm session properties</Keyword>
+			<Keyword Weight="8">list psm session properties</Keyword>
+			<Keyword Weight="8">retrieve psm session properties</Keyword>
+			<Keyword Weight="15">get-vpaspsmsessionproperties</Keyword>
+			<Keyword Weight="10">psm session properties</Keyword>
+			<Keyword Weight="10">psm session</Keyword>
+			<Keyword Weight="10">active session</Keyword>
+			<Keyword Weight="9">recording</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetPSMSessions" Command="Get-VPASPSMSessions" Category="PSM">
+		<Description>Resolve prompts that refer to get operations for PSM Sessions.</Description>
+		<Keywords>
+			<Keyword Weight="12">get psm sessions</Keyword>
+			<Keyword Weight="8">show psm sessions</Keyword>
+			<Keyword Weight="8">list psm sessions</Keyword>
+			<Keyword Weight="8">retrieve psm sessions</Keyword>
+			<Keyword Weight="15">get-vpaspsmsessions</Keyword>
+			<Keyword Weight="10">psm sessions</Keyword>
+			<Keyword Weight="10">psm session</Keyword>
+			<Keyword Weight="10">active session</Keyword>
+			<Keyword Weight="9">recording</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetPSMSettingsByPlatformID" Command="Get-VPASPSMSettingsByPlatformID" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for PSM Settings By Platform ID.</Description>
+		<Keywords>
+			<Keyword Weight="12">get psm settings by platform id</Keyword>
+			<Keyword Weight="8">show psm settings by platform id</Keyword>
+			<Keyword Weight="8">list psm settings by platform id</Keyword>
+			<Keyword Weight="8">retrieve psm settings by platform id</Keyword>
+			<Keyword Weight="15">get-vpaspsmsettingsbyplatformid</Keyword>
+			<Keyword Weight="10">psm settings by platform id</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetRotationalPlatformDetails" Command="Get-VPASRotationalPlatformDetails" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for Rotational Platform Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get rotational platform details</Keyword>
+			<Keyword Weight="8">show rotational platform details</Keyword>
+			<Keyword Weight="8">list rotational platform details</Keyword>
+			<Keyword Weight="8">retrieve rotational platform details</Keyword>
+			<Keyword Weight="15">get-vpasrotationalplatformdetails</Keyword>
+			<Keyword Weight="10">rotational platform details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSafeDetails" Command="Get-VPASSafeDetails" Category="Safes">
+		<Description>Resolve prompts that refer to get operations for Safe Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get safe details</Keyword>
+			<Keyword Weight="8">show safe details</Keyword>
+			<Keyword Weight="8">list safe details</Keyword>
+			<Keyword Weight="8">retrieve safe details</Keyword>
+			<Keyword Weight="15">get-vpassafedetails</Keyword>
+			<Keyword Weight="10">safe details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSafeMembers" Command="Get-VPASSafeMembers" Category="Safes">
+		<Description>Resolve prompts that refer to get operations for Safe Members.</Description>
+		<Keywords>
+			<Keyword Weight="12">get safe members</Keyword>
+			<Keyword Weight="8">show safe members</Keyword>
+			<Keyword Weight="8">list safe members</Keyword>
+			<Keyword Weight="8">retrieve safe members</Keyword>
+			<Keyword Weight="15">get-vpassafemembers</Keyword>
+			<Keyword Weight="10">safe members</Keyword>
+			<Keyword Weight="12">safe permissions</Keyword>
+			<Keyword Weight="11">who has access to safe</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSafeMemberSearch" Command="Get-VPASSafeMemberSearch" Category="Safes">
+		<Description>Resolve prompts that refer to get operations for Safe Member Search.</Description>
+		<Keywords>
+			<Keyword Weight="12">get safe member search</Keyword>
+			<Keyword Weight="8">show safe member search</Keyword>
+			<Keyword Weight="8">list safe member search</Keyword>
+			<Keyword Weight="8">retrieve safe member search</Keyword>
+			<Keyword Weight="15">get-vpassafemembersearch</Keyword>
+			<Keyword Weight="10">safe member search</Keyword>
+			<Keyword Weight="12">safe permissions</Keyword>
+			<Keyword Weight="11">who has access to safe</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSafes" Command="Get-VPASSafes" Category="Safes">
+		<Description>Resolve prompts that refer to get operations for Safes.</Description>
+		<Keywords>
+			<Keyword Weight="12">get safes</Keyword>
+			<Keyword Weight="8">show safes</Keyword>
+			<Keyword Weight="8">list safes</Keyword>
+			<Keyword Weight="8">retrieve safes</Keyword>
+			<Keyword Weight="15">get-vpassafes</Keyword>
+			<Keyword Weight="10">safes</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSafesByPlatformID" Command="Get-VPASSafesByPlatformID" Category="Safes">
+		<Description>Resolve prompts that refer to get operations for Safes By Platform ID.</Description>
+		<Keywords>
+			<Keyword Weight="12">get safes by platform id</Keyword>
+			<Keyword Weight="8">show safes by platform id</Keyword>
+			<Keyword Weight="8">list safes by platform id</Keyword>
+			<Keyword Weight="8">retrieve safes by platform id</Keyword>
+			<Keyword Weight="15">get-vpassafesbyplatformid</Keyword>
+			<Keyword Weight="10">safes by platform id</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSearchProperties" Command="Get-VPASSearchProperties" Category="General">
+		<Description>Resolve prompts that refer to get operations for Search Properties.</Description>
+		<Keywords>
+			<Keyword Weight="12">get search properties</Keyword>
+			<Keyword Weight="8">show search properties</Keyword>
+			<Keyword Weight="8">list search properties</Keyword>
+			<Keyword Weight="8">retrieve search properties</Keyword>
+			<Keyword Weight="15">get-vpassearchproperties</Keyword>
+			<Keyword Weight="10">search properties</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSpecificAuthenticationMethod" Command="Get-VPASSpecificAuthenticationMethod" Category="Authentication">
+		<Description>Resolve prompts that refer to get operations for Specific Authentication Method.</Description>
+		<Keywords>
+			<Keyword Weight="12">get specific authentication method</Keyword>
+			<Keyword Weight="8">show specific authentication method</Keyword>
+			<Keyword Weight="8">list specific authentication method</Keyword>
+			<Keyword Weight="8">retrieve specific authentication method</Keyword>
+			<Keyword Weight="15">get-vpasspecificauthenticationmethod</Keyword>
+			<Keyword Weight="10">specific authentication method</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSQLAccounts" Command="Get-VPASSQLAccounts" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for SQL Accounts.</Description>
+		<Keywords>
+			<Keyword Weight="12">get sql accounts</Keyword>
+			<Keyword Weight="8">show sql accounts</Keyword>
+			<Keyword Weight="8">list sql accounts</Keyword>
+			<Keyword Weight="8">retrieve sql accounts</Keyword>
+			<Keyword Weight="15">get-vpassqlaccounts</Keyword>
+			<Keyword Weight="10">sql accounts</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSQLPlatforms" Command="Get-VPASSQLPlatforms" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for SQL Platforms.</Description>
+		<Keywords>
+			<Keyword Weight="12">get sql platforms</Keyword>
+			<Keyword Weight="8">show sql platforms</Keyword>
+			<Keyword Weight="8">list sql platforms</Keyword>
+			<Keyword Weight="8">retrieve sql platforms</Keyword>
+			<Keyword Weight="15">get-vpassqlplatforms</Keyword>
+			<Keyword Weight="10">sql platforms</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSQLSafes" Command="Get-VPASSQLSafes" Category="Safes">
+		<Description>Resolve prompts that refer to get operations for SQL Safes.</Description>
+		<Keywords>
+			<Keyword Weight="12">get sql safes</Keyword>
+			<Keyword Weight="8">show sql safes</Keyword>
+			<Keyword Weight="8">list sql safes</Keyword>
+			<Keyword Weight="8">retrieve sql safes</Keyword>
+			<Keyword Weight="15">get-vpassqlsafes</Keyword>
+			<Keyword Weight="10">sql safes</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSystemComponents" Command="Get-VPASSystemComponents" Category="General">
+		<Description>Resolve prompts that refer to get operations for System Components.</Description>
+		<Keywords>
+			<Keyword Weight="12">get system components</Keyword>
+			<Keyword Weight="8">show system components</Keyword>
+			<Keyword Weight="8">list system components</Keyword>
+			<Keyword Weight="8">retrieve system components</Keyword>
+			<Keyword Weight="15">get-vpassystemcomponents</Keyword>
+			<Keyword Weight="10">system components</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSystemHealth" Command="Get-VPASSystemHealth" Category="Health">
+		<Description>Resolve prompts that refer to get operations for System Health.</Description>
+		<Keywords>
+			<Keyword Weight="12">get system health</Keyword>
+			<Keyword Weight="8">show system health</Keyword>
+			<Keyword Weight="8">list system health</Keyword>
+			<Keyword Weight="8">retrieve system health</Keyword>
+			<Keyword Weight="15">get-vpassystemhealth</Keyword>
+			<Keyword Weight="10">system health</Keyword>
+			<Keyword Weight="12">health check</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetUsagePlatformDetails" Command="Get-VPASUsagePlatformDetails" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for Usage Platform Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get usage platform details</Keyword>
+			<Keyword Weight="8">show usage platform details</Keyword>
+			<Keyword Weight="8">list usage platform details</Keyword>
+			<Keyword Weight="8">retrieve usage platform details</Keyword>
+			<Keyword Weight="15">get-vpasusageplatformdetails</Keyword>
+			<Keyword Weight="10">usage platform details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetVaultDetails" Command="Get-VPASVaultDetails" Category="Vault">
+		<Description>Resolve prompts that refer to get operations for Vault Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get vault details</Keyword>
+			<Keyword Weight="8">show vault details</Keyword>
+			<Keyword Weight="8">list vault details</Keyword>
+			<Keyword Weight="8">retrieve vault details</Keyword>
+			<Keyword Weight="15">get-vpasvaultdetails</Keyword>
+			<Keyword Weight="10">vault details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetVaultVersion" Command="Get-VPASVaultVersion" Category="Vault">
+		<Description>Resolve prompts that refer to get operations for Vault Version.</Description>
+		<Keywords>
+			<Keyword Weight="12">get vault version</Keyword>
+			<Keyword Weight="8">show vault version</Keyword>
+			<Keyword Weight="8">list vault version</Keyword>
+			<Keyword Weight="8">retrieve vault version</Keyword>
+			<Keyword Weight="15">get-vpasvaultversion</Keyword>
+			<Keyword Weight="10">vault version</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="ImportConnectionComponent" Command="Import-VPASConnectionComponent" Category="General">
+		<Description>Resolve prompts that refer to import operations for Connection Component.</Description>
+		<Keywords>
+			<Keyword Weight="12">import connection component</Keyword>
+			<Keyword Weight="8">upload connection component</Keyword>
+			<Keyword Weight="8">load connection component</Keyword>
+			<Keyword Weight="15">import-vpasconnectioncomponent</Keyword>
+			<Keyword Weight="10">connection component</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="ImportPlatform" Command="Import-VPASPlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to import operations for Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">import platform</Keyword>
+			<Keyword Weight="8">upload platform</Keyword>
+			<Keyword Weight="8">load platform</Keyword>
+			<Keyword Weight="15">import-vpasplatform</Keyword>
+			<Keyword Weight="10">platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="InvokeAccountPasswordAction" Command="Invoke-VPASAccountPasswordAction" Category="Accounts">
+		<Description>Resolve prompts that refer to invoke operations for Account Password Action.</Description>
+		<Keywords>
+			<Keyword Weight="12">invoke account password action</Keyword>
+			<Keyword Weight="8">run account password action</Keyword>
+			<Keyword Weight="8">start account password action</Keyword>
+			<Keyword Weight="8">trigger account password action</Keyword>
+			<Keyword Weight="8">execute account password action</Keyword>
+			<Keyword Weight="15">invoke-vpasaccountpasswordaction</Keyword>
+			<Keyword Weight="10">account password action</Keyword>
+			<Keyword Weight="12">rotate password</Keyword>
+			<Keyword Weight="12">reconcile password</Keyword>
+			<Keyword Weight="10">verify password</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="InvokeActivePSMSessionAction" Command="Invoke-VPASActivePSMSessionAction" Category="PSM">
+		<Description>Resolve prompts that refer to invoke operations for Active PSM Session Action.</Description>
+		<Keywords>
+			<Keyword Weight="12">invoke active psm session action</Keyword>
+			<Keyword Weight="8">run active psm session action</Keyword>
+			<Keyword Weight="8">start active psm session action</Keyword>
+			<Keyword Weight="8">trigger active psm session action</Keyword>
+			<Keyword Weight="8">execute active psm session action</Keyword>
+			<Keyword Weight="15">invoke-vpasactivepsmsessionaction</Keyword>
+			<Keyword Weight="10">active psm session action</Keyword>
+			<Keyword Weight="10">psm session</Keyword>
+			<Keyword Weight="10">active session</Keyword>
+			<Keyword Weight="9">recording</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="InvokeAuditSafeTest" Command="Invoke-VPASAuditSafeTest" Category="Safes">
+		<Description>Resolve prompts that refer to invoke operations for Audit Safe Test.</Description>
+		<Keywords>
+			<Keyword Weight="12">invoke audit safe test</Keyword>
+			<Keyword Weight="8">run audit safe test</Keyword>
+			<Keyword Weight="8">start audit safe test</Keyword>
+			<Keyword Weight="8">trigger audit safe test</Keyword>
+			<Keyword Weight="8">execute audit safe test</Keyword>
+			<Keyword Weight="15">invoke-vpasauditsafetest</Keyword>
+			<Keyword Weight="10">audit safe test</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="InvokeCentralCredentialProvider" Command="Invoke-VPASCentralCredentialProvider" Category="General">
+		<Description>Resolve prompts that refer to invoke operations for Central Credential Provider.</Description>
+		<Keywords>
+			<Keyword Weight="12">invoke central credential provider</Keyword>
+			<Keyword Weight="8">run central credential provider</Keyword>
+			<Keyword Weight="8">start central credential provider</Keyword>
+			<Keyword Weight="8">trigger central credential provider</Keyword>
+			<Keyword Weight="8">execute central credential provider</Keyword>
+			<Keyword Weight="15">invoke-vpascentralcredentialprovider</Keyword>
+			<Keyword Weight="10">central credential provider</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="InvokeCredentialProvider" Command="Invoke-VPASCredentialProvider" Category="General">
+		<Description>Resolve prompts that refer to invoke operations for Credential Provider.</Description>
+		<Keywords>
+			<Keyword Weight="12">invoke credential provider</Keyword>
+			<Keyword Weight="8">run credential provider</Keyword>
+			<Keyword Weight="8">start credential provider</Keyword>
+			<Keyword Weight="8">trigger credential provider</Keyword>
+			<Keyword Weight="8">execute credential provider</Keyword>
+			<Keyword Weight="15">invoke-vpascredentialprovider</Keyword>
+			<Keyword Weight="10">credential provider</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="InvokeHealthCheck" Command="Invoke-VPASHealthCheck" Category="Health">
+		<Description>Resolve prompts that refer to invoke operations for Health Check.</Description>
+		<Keywords>
+			<Keyword Weight="12">invoke health check</Keyword>
+			<Keyword Weight="8">run health check</Keyword>
+			<Keyword Weight="8">start health check</Keyword>
+			<Keyword Weight="8">trigger health check</Keyword>
+			<Keyword Weight="8">execute health check</Keyword>
+			<Keyword Weight="15">invoke-vpashealthcheck</Keyword>
+			<Keyword Weight="10">health check</Keyword>
+			<Keyword Weight="10">system health</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="InvokeMetricsAccounts" Command="Invoke-VPASMetricsAccounts" Category="Accounts">
+		<Description>Resolve prompts that refer to invoke operations for Metrics Accounts.</Description>
+		<Keywords>
+			<Keyword Weight="12">invoke metrics accounts</Keyword>
+			<Keyword Weight="8">run metrics accounts</Keyword>
+			<Keyword Weight="8">start metrics accounts</Keyword>
+			<Keyword Weight="8">trigger metrics accounts</Keyword>
+			<Keyword Weight="8">execute metrics accounts</Keyword>
+			<Keyword Weight="15">invoke-vpasmetricsaccounts</Keyword>
+			<Keyword Weight="10">metrics accounts</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="InvokeMetricsCPM" Command="Invoke-VPASMetricsCPM" Category="Metrics">
+		<Description>Resolve prompts that refer to invoke operations for Metrics CPM.</Description>
+		<Keywords>
+			<Keyword Weight="12">invoke metrics cpm</Keyword>
+			<Keyword Weight="8">run metrics cpm</Keyword>
+			<Keyword Weight="8">start metrics cpm</Keyword>
+			<Keyword Weight="8">trigger metrics cpm</Keyword>
+			<Keyword Weight="8">execute metrics cpm</Keyword>
+			<Keyword Weight="15">invoke-vpasmetricscpm</Keyword>
+			<Keyword Weight="10">metrics cpm</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="InvokeMetricsPlatforms" Command="Invoke-VPASMetricsPlatforms" Category="Platforms">
+		<Description>Resolve prompts that refer to invoke operations for Metrics Platforms.</Description>
+		<Keywords>
+			<Keyword Weight="12">invoke metrics platforms</Keyword>
+			<Keyword Weight="8">run metrics platforms</Keyword>
+			<Keyword Weight="8">start metrics platforms</Keyword>
+			<Keyword Weight="8">trigger metrics platforms</Keyword>
+			<Keyword Weight="8">execute metrics platforms</Keyword>
+			<Keyword Weight="15">invoke-vpasmetricsplatforms</Keyword>
+			<Keyword Weight="10">metrics platforms</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="InvokeMetricsProviders" Command="Invoke-VPASMetricsProviders" Category="Metrics">
+		<Description>Resolve prompts that refer to invoke operations for Metrics Providers.</Description>
+		<Keywords>
+			<Keyword Weight="12">invoke metrics providers</Keyword>
+			<Keyword Weight="8">run metrics providers</Keyword>
+			<Keyword Weight="8">start metrics providers</Keyword>
+			<Keyword Weight="8">trigger metrics providers</Keyword>
+			<Keyword Weight="8">execute metrics providers</Keyword>
+			<Keyword Weight="15">invoke-vpasmetricsproviders</Keyword>
+			<Keyword Weight="10">metrics providers</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="InvokeMetricsPSM" Command="Invoke-VPASMetricsPSM" Category="PSM">
+		<Description>Resolve prompts that refer to invoke operations for Metrics PSM.</Description>
+		<Keywords>
+			<Keyword Weight="12">invoke metrics psm</Keyword>
+			<Keyword Weight="8">run metrics psm</Keyword>
+			<Keyword Weight="8">start metrics psm</Keyword>
+			<Keyword Weight="8">trigger metrics psm</Keyword>
+			<Keyword Weight="8">execute metrics psm</Keyword>
+			<Keyword Weight="15">invoke-vpasmetricspsm</Keyword>
+			<Keyword Weight="10">metrics psm</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="InvokeQuery" Command="Invoke-VPASQuery" Category="General">
+		<Description>Resolve prompts that refer to invoke operations for Query.</Description>
+		<Keywords>
+			<Keyword Weight="12">invoke query</Keyword>
+			<Keyword Weight="8">run query</Keyword>
+			<Keyword Weight="8">start query</Keyword>
+			<Keyword Weight="8">trigger query</Keyword>
+			<Keyword Weight="8">execute query</Keyword>
+			<Keyword Weight="15">invoke-vpasquery</Keyword>
+			<Keyword Weight="10">query</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="InvokeReporting" Command="Invoke-VPASReporting" Category="Reports">
+		<Description>Resolve prompts that refer to invoke operations for Reporting.</Description>
+		<Keywords>
+			<Keyword Weight="12">invoke reporting</Keyword>
+			<Keyword Weight="8">run reporting</Keyword>
+			<Keyword Weight="8">start reporting</Keyword>
+			<Keyword Weight="8">trigger reporting</Keyword>
+			<Keyword Weight="8">execute reporting</Keyword>
+			<Keyword Weight="15">invoke-vpasreporting</Keyword>
+			<Keyword Weight="10">reporting</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="InvokeUserLicenseReport" Command="Invoke-VPASUserLicenseReport" Category="Reports">
+		<Description>Resolve prompts that refer to invoke operations for User License Report.</Description>
+		<Keywords>
+			<Keyword Weight="12">invoke user license report</Keyword>
+			<Keyword Weight="8">run user license report</Keyword>
+			<Keyword Weight="8">start user license report</Keyword>
+			<Keyword Weight="8">trigger user license report</Keyword>
+			<Keyword Weight="8">execute user license report</Keyword>
+			<Keyword Weight="15">invoke-vpasuserlicensereport</Keyword>
+			<Keyword Weight="10">user license report</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="NewSIASetupScript" Command="New-VPASSIASetupScript" Category="SIA">
+		<Description>Resolve prompts that refer to new operations for SIA Setup Script.</Description>
+		<Keywords>
+			<Keyword Weight="12">new sia setup script</Keyword>
+			<Keyword Weight="8">create sia setup script</Keyword>
+			<Keyword Weight="8">generate sia setup script</Keyword>
+			<Keyword Weight="15">new-vpassiasetupscript</Keyword>
+			<Keyword Weight="10">sia setup script</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="NewIdentityGenerateUserPassword" Command="New-VPASIdentityGenerateUserPassword" Category="Identity">
+		<Description>Resolve prompts that refer to new operations for Identity Generate User Password.</Description>
+		<Keywords>
+			<Keyword Weight="12">new identity generate user password</Keyword>
+			<Keyword Weight="8">create identity generate user password</Keyword>
+			<Keyword Weight="8">generate identity generate user password</Keyword>
+			<Keyword Weight="15">new-vpasidentitygenerateuserpassword</Keyword>
+			<Keyword Weight="10">identity generate user password</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="NewPSMSession" Command="New-VPASPSMSession" Category="PSM">
+		<Description>Resolve prompts that refer to new operations for PSM Session.</Description>
+		<Keywords>
+			<Keyword Weight="12">new psm session</Keyword>
+			<Keyword Weight="8">create psm session</Keyword>
+			<Keyword Weight="8">generate psm session</Keyword>
+			<Keyword Weight="15">new-vpaspsmsession</Keyword>
+			<Keyword Weight="10">psm session</Keyword>
+			<Keyword Weight="10">active session</Keyword>
+			<Keyword Weight="9">recording</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="NewToken" Command="New-VPASToken" Category="Authentication">
+		<Description>Resolve prompts that refer to new operations for Token.</Description>
+		<Keywords>
+			<Keyword Weight="12">new token</Keyword>
+			<Keyword Weight="8">create token</Keyword>
+			<Keyword Weight="8">generate token</Keyword>
+			<Keyword Weight="15">new-vpastoken</Keyword>
+			<Keyword Weight="10">token</Keyword>
+			<Keyword Weight="12">login</Keyword>
+			<Keyword Weight="10">authenticate</Keyword>
+			<Keyword Weight="10">logon</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="NewMFACacheSSHKey" Command="New-VPASMFACacheSSHKey" Category="General">
+		<Description>Resolve prompts that refer to new operations for MFA Cache SSH Key.</Description>
+		<Keywords>
+			<Keyword Weight="12">new mfa cache ssh key</Keyword>
+			<Keyword Weight="8">create mfa cache ssh key</Keyword>
+			<Keyword Weight="8">generate mfa cache ssh key</Keyword>
+			<Keyword Weight="15">new-vpasmfacachesshkey</Keyword>
+			<Keyword Weight="10">mfa cache ssh key</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveAccount" Command="Remove-VPASAccount" Category="Accounts">
+		<Description>Resolve prompts that refer to remove operations for Account.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove account</Keyword>
+			<Keyword Weight="8">delete account</Keyword>
+			<Keyword Weight="8">drop account</Keyword>
+			<Keyword Weight="15">remove-vpasaccount</Keyword>
+			<Keyword Weight="10">account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveMFACacheSSHKey" Command="Remove-VPASMFACacheSSHKey" Category="General">
+		<Description>Resolve prompts that refer to remove operations for MFA Cache SSH Key.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove mfa cache ssh key</Keyword>
+			<Keyword Weight="8">delete mfa cache ssh key</Keyword>
+			<Keyword Weight="8">drop mfa cache ssh key</Keyword>
+			<Keyword Weight="15">remove-vpasmfacachesshkey</Keyword>
+			<Keyword Weight="10">mfa cache ssh key</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveAccountFromAccountGroup" Command="Remove-VPASAccountFromAccountGroup" Category="Accounts">
+		<Description>Resolve prompts that refer to remove operations for Account From Account Group.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove account from account group</Keyword>
+			<Keyword Weight="8">delete account from account group</Keyword>
+			<Keyword Weight="8">drop account from account group</Keyword>
+			<Keyword Weight="15">remove-vpasaccountfromaccountgroup</Keyword>
+			<Keyword Weight="10">account from account group</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveAccountRequest" Command="Remove-VPASAccountRequest" Category="Accounts">
+		<Description>Resolve prompts that refer to remove operations for Account Request.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove account request</Keyword>
+			<Keyword Weight="8">delete account request</Keyword>
+			<Keyword Weight="8">drop account request</Keyword>
+			<Keyword Weight="15">remove-vpasaccountrequest</Keyword>
+			<Keyword Weight="10">account request</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveAllDiscoveredAccounts" Command="Remove-VPASAllDiscoveredAccounts" Category="Accounts">
+		<Description>Resolve prompts that refer to remove operations for All Discovered Accounts.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove all discovered accounts</Keyword>
+			<Keyword Weight="8">delete all discovered accounts</Keyword>
+			<Keyword Weight="8">drop all discovered accounts</Keyword>
+			<Keyword Weight="15">remove-vpasalldiscoveredaccounts</Keyword>
+			<Keyword Weight="10">all discovered accounts</Keyword>
+			<Keyword Weight="9">discovered accounts</Keyword>
+			<Keyword Weight="8">remove discovered accounts</Keyword>
+			<Keyword Weight="8">delete discovered accounts</Keyword>
+			<Keyword Weight="8">drop discovered accounts</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveApplication" Command="Remove-VPASApplication" Category="Applications">
+		<Description>Resolve prompts that refer to remove operations for Application.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove application</Keyword>
+			<Keyword Weight="8">delete application</Keyword>
+			<Keyword Weight="8">drop application</Keyword>
+			<Keyword Weight="15">remove-vpasapplication</Keyword>
+			<Keyword Weight="10">application</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveApplicationAuthentication" Command="Remove-VPASApplicationAuthentication" Category="Applications">
+		<Description>Resolve prompts that refer to remove operations for Application Authentication.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove application authentication</Keyword>
+			<Keyword Weight="8">delete application authentication</Keyword>
+			<Keyword Weight="8">drop application authentication</Keyword>
+			<Keyword Weight="15">remove-vpasapplicationauthentication</Keyword>
+			<Keyword Weight="10">application authentication</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveAuthenticationMethod" Command="Remove-VPASAuthenticationMethod" Category="Authentication">
+		<Description>Resolve prompts that refer to remove operations for Authentication Method.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove authentication method</Keyword>
+			<Keyword Weight="8">delete authentication method</Keyword>
+			<Keyword Weight="8">drop authentication method</Keyword>
+			<Keyword Weight="15">remove-vpasauthenticationmethod</Keyword>
+			<Keyword Weight="10">authentication method</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveCustomTheme" Command="Remove-VPASCustomTheme" Category="Themes">
+		<Description>Resolve prompts that refer to remove operations for Custom Theme.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove custom theme</Keyword>
+			<Keyword Weight="8">delete custom theme</Keyword>
+			<Keyword Weight="8">drop custom theme</Keyword>
+			<Keyword Weight="15">remove-vpascustomtheme</Keyword>
+			<Keyword Weight="10">custom theme</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveDirectory" Command="Remove-VPASDirectory" Category="Directories">
+		<Description>Resolve prompts that refer to remove operations for Directory.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove directory</Keyword>
+			<Keyword Weight="8">delete directory</Keyword>
+			<Keyword Weight="8">drop directory</Keyword>
+			<Keyword Weight="15">remove-vpasdirectory</Keyword>
+			<Keyword Weight="10">directory</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveSIAPolicy" Command="Remove-VPASSIAPolicy" Category="SIA">
+		<Description>Resolve prompts that refer to remove operations for SIA Policy.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove sia policy</Keyword>
+			<Keyword Weight="8">delete sia policy</Keyword>
+			<Keyword Weight="8">drop sia policy</Keyword>
+			<Keyword Weight="15">remove-vpassiapolicy</Keyword>
+			<Keyword Weight="10">sia policy</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveSIAStrongAccount" Command="Remove-VPASSIAStrongAccount" Category="SIA">
+		<Description>Resolve prompts that refer to remove operations for SIA Strong Account.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove sia strong account</Keyword>
+			<Keyword Weight="8">delete sia strong account</Keyword>
+			<Keyword Weight="8">drop sia strong account</Keyword>
+			<Keyword Weight="15">remove-vpassiastrongaccount</Keyword>
+			<Keyword Weight="10">sia strong account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveEPVGroup" Command="Remove-VPASEPVGroup" Category="EPV">
+		<Description>Resolve prompts that refer to remove operations for EPV Group.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove epv group</Keyword>
+			<Keyword Weight="8">delete epv group</Keyword>
+			<Keyword Weight="8">drop epv group</Keyword>
+			<Keyword Weight="15">remove-vpasepvgroup</Keyword>
+			<Keyword Weight="10">epv group</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveEPVUser" Command="Remove-VPASEPVUser" Category="EPV">
+		<Description>Resolve prompts that refer to remove operations for EPV User.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove epv user</Keyword>
+			<Keyword Weight="8">delete epv user</Keyword>
+			<Keyword Weight="8">drop epv user</Keyword>
+			<Keyword Weight="15">remove-vpasepvuser</Keyword>
+			<Keyword Weight="10">epv user</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveGroupPlatform" Command="Remove-VPASGroupPlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to remove operations for Group Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove group platform</Keyword>
+			<Keyword Weight="8">delete group platform</Keyword>
+			<Keyword Weight="8">drop group platform</Keyword>
+			<Keyword Weight="15">remove-vpasgroupplatform</Keyword>
+			<Keyword Weight="10">group platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveIdentityAdminSecurityQuestion" Command="Remove-VPASIdentityAdminSecurityQuestion" Category="Identity">
+		<Description>Resolve prompts that refer to remove operations for Identity Admin Security Question.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove identity admin security question</Keyword>
+			<Keyword Weight="8">delete identity admin security question</Keyword>
+			<Keyword Weight="8">drop identity admin security question</Keyword>
+			<Keyword Weight="15">remove-vpasidentityadminsecurityquestion</Keyword>
+			<Keyword Weight="10">identity admin security question</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveIdentityRole" Command="Remove-VPASIdentityRole" Category="Identity">
+		<Description>Resolve prompts that refer to remove operations for Identity Role.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove identity role</Keyword>
+			<Keyword Weight="8">delete identity role</Keyword>
+			<Keyword Weight="8">drop identity role</Keyword>
+			<Keyword Weight="15">remove-vpasidentityrole</Keyword>
+			<Keyword Weight="10">identity role</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveLinkedAccount" Command="Remove-VPASLinkedAccount" Category="Accounts">
+		<Description>Resolve prompts that refer to remove operations for Linked Account.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove linked account</Keyword>
+			<Keyword Weight="8">delete linked account</Keyword>
+			<Keyword Weight="8">drop linked account</Keyword>
+			<Keyword Weight="15">remove-vpaslinkedaccount</Keyword>
+			<Keyword Weight="10">linked account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveMemberEPVGroup" Command="Remove-VPASMemberEPVGroup" Category="EPV">
+		<Description>Resolve prompts that refer to remove operations for Member EPV Group.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove member epv group</Keyword>
+			<Keyword Weight="8">delete member epv group</Keyword>
+			<Keyword Weight="8">drop member epv group</Keyword>
+			<Keyword Weight="15">remove-vpasmemberepvgroup</Keyword>
+			<Keyword Weight="10">member epv group</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemovePlatform" Command="Remove-VPASPlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to remove operations for Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove platform</Keyword>
+			<Keyword Weight="8">delete platform</Keyword>
+			<Keyword Weight="8">drop platform</Keyword>
+			<Keyword Weight="15">remove-vpasplatform</Keyword>
+			<Keyword Weight="10">platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveRotationalPlatform" Command="Remove-VPASRotationalPlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to remove operations for Rotational Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove rotational platform</Keyword>
+			<Keyword Weight="8">delete rotational platform</Keyword>
+			<Keyword Weight="8">drop rotational platform</Keyword>
+			<Keyword Weight="15">remove-vpasrotationalplatform</Keyword>
+			<Keyword Weight="10">rotational platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveSafe" Command="Remove-VPASSafe" Category="Safes">
+		<Description>Resolve prompts that refer to remove operations for Safe.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove safe</Keyword>
+			<Keyword Weight="8">delete safe</Keyword>
+			<Keyword Weight="8">drop safe</Keyword>
+			<Keyword Weight="15">remove-vpassafe</Keyword>
+			<Keyword Weight="10">safe</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveSafeMember" Command="Remove-VPASSafeMember" Category="Safes">
+		<Description>Resolve prompts that refer to remove operations for Safe Member.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove safe member</Keyword>
+			<Keyword Weight="8">delete safe member</Keyword>
+			<Keyword Weight="8">drop safe member</Keyword>
+			<Keyword Weight="15">remove-vpassafemember</Keyword>
+			<Keyword Weight="10">safe member</Keyword>
+			<Keyword Weight="12">safe permissions</Keyword>
+			<Keyword Weight="11">who has access to safe</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveToken" Command="Remove-VPASToken" Category="Authentication">
+		<Description>Resolve prompts that refer to remove operations for Token.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove token</Keyword>
+			<Keyword Weight="8">delete token</Keyword>
+			<Keyword Weight="8">drop token</Keyword>
+			<Keyword Weight="15">remove-vpastoken</Keyword>
+			<Keyword Weight="10">token</Keyword>
+			<Keyword Weight="12">login</Keyword>
+			<Keyword Weight="10">authenticate</Keyword>
+			<Keyword Weight="10">logon</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveUsagePlatform" Command="Remove-VPASUsagePlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to remove operations for Usage Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove usage platform</Keyword>
+			<Keyword Weight="8">delete usage platform</Keyword>
+			<Keyword Weight="8">drop usage platform</Keyword>
+			<Keyword Weight="15">remove-vpasusageplatform</Keyword>
+			<Keyword Weight="10">usage platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="ResetEPVUserPassword" Command="Reset-VPASEPVUserPassword" Category="EPV">
+		<Description>Resolve prompts that refer to reset operations for EPV User Password.</Description>
+		<Keywords>
+			<Keyword Weight="12">reset epv user password</Keyword>
+			<Keyword Weight="8">clear epv user password</Keyword>
+			<Keyword Weight="15">reset-vpasepvuserpassword</Keyword>
+			<Keyword Weight="10">epv user password</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="ResetIdentityUserSecurityQuestions" Command="Reset-VPASIdentityUserSecurityQuestions" Category="Identity">
+		<Description>Resolve prompts that refer to reset operations for Identity User Security Questions.</Description>
+		<Keywords>
+			<Keyword Weight="12">reset identity user security questions</Keyword>
+			<Keyword Weight="8">clear identity user security questions</Keyword>
+			<Keyword Weight="15">reset-vpasidentityusersecurityquestions</Keyword>
+			<Keyword Weight="10">identity user security questions</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="SetAuditSafeTest" Command="Set-VPASAuditSafeTest" Category="Safes">
+		<Description>Resolve prompts that refer to set operations for Audit Safe Test.</Description>
+		<Keywords>
+			<Keyword Weight="12">set audit safe test</Keyword>
+			<Keyword Weight="8">configure audit safe test</Keyword>
+			<Keyword Weight="8">assign audit safe test</Keyword>
+			<Keyword Weight="15">set-vpasauditsafetest</Keyword>
+			<Keyword Weight="10">audit safe test</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="SetIdentityUserState" Command="Set-VPASIdentityUserState" Category="Identity">
+		<Description>Resolve prompts that refer to set operations for Identity User State.</Description>
+		<Keywords>
+			<Keyword Weight="12">set identity user state</Keyword>
+			<Keyword Weight="8">configure identity user state</Keyword>
+			<Keyword Weight="8">assign identity user state</Keyword>
+			<Keyword Weight="15">set-vpasidentityuserstate</Keyword>
+			<Keyword Weight="10">identity user state</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="SetIdentityUserStatus" Command="Set-VPASIdentityUserStatus" Category="Identity">
+		<Description>Resolve prompts that refer to set operations for Identity User Status.</Description>
+		<Keywords>
+			<Keyword Weight="12">set identity user status</Keyword>
+			<Keyword Weight="8">configure identity user status</Keyword>
+			<Keyword Weight="8">assign identity user status</Keyword>
+			<Keyword Weight="15">set-vpasidentityuserstatus</Keyword>
+			<Keyword Weight="10">identity user status</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="SetLinkedAccount" Command="Set-VPASLinkedAccount" Category="Accounts">
+		<Description>Resolve prompts that refer to set operations for Linked Account.</Description>
+		<Keywords>
+			<Keyword Weight="12">set linked account</Keyword>
+			<Keyword Weight="8">configure linked account</Keyword>
+			<Keyword Weight="8">assign linked account</Keyword>
+			<Keyword Weight="15">set-vpaslinkedaccount</Keyword>
+			<Keyword Weight="10">linked account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="SetSQLConnectionDetails" Command="Set-VPASSQLConnectionDetails" Category="SQL">
+		<Description>Resolve prompts that refer to set operations for SQL Connection Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">set sql connection details</Keyword>
+			<Keyword Weight="8">configure sql connection details</Keyword>
+			<Keyword Weight="8">assign sql connection details</Keyword>
+			<Keyword Weight="15">set-vpassqlconnectiondetails</Keyword>
+			<Keyword Weight="10">sql connection details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="TestIdentityUserLocked" Command="Test-VPASIdentityUserLocked" Category="Identity">
+		<Description>Resolve prompts that refer to test operations for Identity User Locked.</Description>
+		<Keywords>
+			<Keyword Weight="12">test identity user locked</Keyword>
+			<Keyword Weight="8">validate identity user locked</Keyword>
+			<Keyword Weight="8">check identity user locked</Keyword>
+			<Keyword Weight="15">test-vpasidentityuserlocked</Keyword>
+			<Keyword Weight="10">identity user locked</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="TestSQLConnectionDetails" Command="Test-VPASSQLConnectionDetails" Category="SQL">
+		<Description>Resolve prompts that refer to test operations for SQL Connection Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">test sql connection details</Keyword>
+			<Keyword Weight="8">validate sql connection details</Keyword>
+			<Keyword Weight="8">check sql connection details</Keyword>
+			<Keyword Weight="15">test-vpassqlconnectiondetails</Keyword>
+			<Keyword Weight="10">sql connection details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UnlockExclusiveAccount" Command="Unlock-VPASExclusiveAccount" Category="Accounts">
+		<Description>Resolve prompts that refer to unlock operations for Exclusive Account.</Description>
+		<Keywords>
+			<Keyword Weight="12">unlock exclusive account</Keyword>
+			<Keyword Weight="8">release exclusive account</Keyword>
+			<Keyword Weight="15">unlock-vpasexclusiveaccount</Keyword>
+			<Keyword Weight="10">exclusive account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdateAccountFields" Command="Update-VPASAccountFields" Category="Accounts">
+		<Description>Resolve prompts that refer to update operations for Account Fields.</Description>
+		<Keywords>
+			<Keyword Weight="12">update account fields</Keyword>
+			<Keyword Weight="8">modify account fields</Keyword>
+			<Keyword Weight="8">change account fields</Keyword>
+			<Keyword Weight="8">edit account fields</Keyword>
+			<Keyword Weight="15">update-vpasaccountfields</Keyword>
+			<Keyword Weight="10">account fields</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdateAuthenticationMethod" Command="Update-VPASAuthenticationMethod" Category="Authentication">
+		<Description>Resolve prompts that refer to update operations for Authentication Method.</Description>
+		<Keywords>
+			<Keyword Weight="12">update authentication method</Keyword>
+			<Keyword Weight="8">modify authentication method</Keyword>
+			<Keyword Weight="8">change authentication method</Keyword>
+			<Keyword Weight="8">edit authentication method</Keyword>
+			<Keyword Weight="15">update-vpasauthenticationmethod</Keyword>
+			<Keyword Weight="10">authentication method</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdateCustomThemeDraft" Command="Update-VPASCustomThemeDraft" Category="Themes">
+		<Description>Resolve prompts that refer to update operations for Custom Theme Draft.</Description>
+		<Keywords>
+			<Keyword Weight="12">update custom theme draft</Keyword>
+			<Keyword Weight="8">modify custom theme draft</Keyword>
+			<Keyword Weight="8">change custom theme draft</Keyword>
+			<Keyword Weight="8">edit custom theme draft</Keyword>
+			<Keyword Weight="15">update-vpascustomthemedraft</Keyword>
+			<Keyword Weight="10">custom theme draft</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdateEPVGroup" Command="Update-VPASEPVGroup" Category="EPV">
+		<Description>Resolve prompts that refer to update operations for EPV Group.</Description>
+		<Keywords>
+			<Keyword Weight="12">update epv group</Keyword>
+			<Keyword Weight="8">modify epv group</Keyword>
+			<Keyword Weight="8">change epv group</Keyword>
+			<Keyword Weight="8">edit epv group</Keyword>
+			<Keyword Weight="15">update-vpasepvgroup</Keyword>
+			<Keyword Weight="10">epv group</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdateEPVUser" Command="Update-VPASEPVUser" Category="EPV">
+		<Description>Resolve prompts that refer to update operations for EPV User.</Description>
+		<Keywords>
+			<Keyword Weight="12">update epv user</Keyword>
+			<Keyword Weight="8">modify epv user</Keyword>
+			<Keyword Weight="8">change epv user</Keyword>
+			<Keyword Weight="8">edit epv user</Keyword>
+			<Keyword Weight="15">update-vpasepvuser</Keyword>
+			<Keyword Weight="10">epv user</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdateIdentityCurrentUserPassword" Command="Update-VPASIdentityCurrentUserPassword" Category="Identity">
+		<Description>Resolve prompts that refer to update operations for Identity Current User Password.</Description>
+		<Keywords>
+			<Keyword Weight="12">update identity current user password</Keyword>
+			<Keyword Weight="8">modify identity current user password</Keyword>
+			<Keyword Weight="8">change identity current user password</Keyword>
+			<Keyword Weight="8">edit identity current user password</Keyword>
+			<Keyword Weight="15">update-vpasidentitycurrentuserpassword</Keyword>
+			<Keyword Weight="10">identity current user password</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdateIdentityRole" Command="Update-VPASIdentityRole" Category="Identity">
+		<Description>Resolve prompts that refer to update operations for Identity Role.</Description>
+		<Keywords>
+			<Keyword Weight="12">update identity role</Keyword>
+			<Keyword Weight="8">modify identity role</Keyword>
+			<Keyword Weight="8">change identity role</Keyword>
+			<Keyword Weight="8">edit identity role</Keyword>
+			<Keyword Weight="15">update-vpasidentityrole</Keyword>
+			<Keyword Weight="10">identity role</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdatePSMSettingsByPlatformID" Command="Update-VPASPSMSettingsByPlatformID" Category="Platforms">
+		<Description>Resolve prompts that refer to update operations for PSM Settings By Platform ID.</Description>
+		<Keywords>
+			<Keyword Weight="12">update psm settings by platform id</Keyword>
+			<Keyword Weight="8">modify psm settings by platform id</Keyword>
+			<Keyword Weight="8">change psm settings by platform id</Keyword>
+			<Keyword Weight="8">edit psm settings by platform id</Keyword>
+			<Keyword Weight="15">update-vpaspsmsettingsbyplatformid</Keyword>
+			<Keyword Weight="10">psm settings by platform id</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdateSafe" Command="Update-VPASSafe" Category="Safes">
+		<Description>Resolve prompts that refer to update operations for Safe.</Description>
+		<Keywords>
+			<Keyword Weight="12">update safe</Keyword>
+			<Keyword Weight="8">modify safe</Keyword>
+			<Keyword Weight="8">change safe</Keyword>
+			<Keyword Weight="8">edit safe</Keyword>
+			<Keyword Weight="15">update-vpassafe</Keyword>
+			<Keyword Weight="10">safe</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdateSafeMember" Command="Update-VPASSafeMember" Category="Safes">
+		<Description>Resolve prompts that refer to update operations for Safe Member.</Description>
+		<Keywords>
+			<Keyword Weight="12">update safe member</Keyword>
+			<Keyword Weight="8">modify safe member</Keyword>
+			<Keyword Weight="8">change safe member</Keyword>
+			<Keyword Weight="8">edit safe member</Keyword>
+			<Keyword Weight="15">update-vpassafemember</Keyword>
+			<Keyword Weight="10">safe member</Keyword>
+			<Keyword Weight="12">safe permissions</Keyword>
+			<Keyword Weight="11">who has access to safe</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="WatchActivePSMSession" Command="Watch-VPASActivePSMSession" Category="PSM">
+		<Description>Resolve prompts that refer to watch operations for Active PSM Session.</Description>
+		<Keywords>
+			<Keyword Weight="12">watch active psm session</Keyword>
+			<Keyword Weight="8">monitor active psm session</Keyword>
+			<Keyword Weight="15">watch-vpasactivepsmsession</Keyword>
+			<Keyword Weight="10">active psm session</Keyword>
+			<Keyword Weight="10">psm session</Keyword>
+			<Keyword Weight="10">active session</Keyword>
+			<Keyword Weight="9">recording</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="WriteOutput" Command="Write-VPASOutput" Category="General">
+		<Description>Resolve prompts that refer to write operations for Output.</Description>
+		<Keywords>
+			<Keyword Weight="12">write output</Keyword>
+			<Keyword Weight="8">output output</Keyword>
+			<Keyword Weight="8">log output</Keyword>
+			<Keyword Weight="15">write-vpasoutput</Keyword>
+			<Keyword Weight="10">output</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="DebugTroubleshootingHelper" Command="Debug-VPASTroubleshootingHelper" Category="Helper">
+		<Description>Resolve prompts that refer to debug operations for Troubleshooting Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">debug troubleshooting helper</Keyword>
+			<Keyword Weight="8">troubleshoot troubleshooting helper</Keyword>
+			<Keyword Weight="8">diagnose troubleshooting helper</Keyword>
+			<Keyword Weight="15">debug-vpastroubleshootinghelper</Keyword>
+			<Keyword Weight="10">troubleshooting helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAccountGroupIDHelper" Command="Get-VPASAccountGroupIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Account Group ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get account group id helper</Keyword>
+			<Keyword Weight="8">show account group id helper</Keyword>
+			<Keyword Weight="8">list account group id helper</Keyword>
+			<Keyword Weight="8">retrieve account group id helper</Keyword>
+			<Keyword Weight="15">get-vpasaccountgroupidhelper</Keyword>
+			<Keyword Weight="10">account group id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAccountIDHelper" Command="Get-VPASAccountIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Account ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get account id helper</Keyword>
+			<Keyword Weight="8">show account id helper</Keyword>
+			<Keyword Weight="8">list account id helper</Keyword>
+			<Keyword Weight="8">retrieve account id helper</Keyword>
+			<Keyword Weight="15">get-vpasaccountidhelper</Keyword>
+			<Keyword Weight="10">account id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAccountRequestIDHelper" Command="Get-VPASAccountRequestIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Account Request ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get account request id helper</Keyword>
+			<Keyword Weight="8">show account request id helper</Keyword>
+			<Keyword Weight="8">list account request id helper</Keyword>
+			<Keyword Weight="8">retrieve account request id helper</Keyword>
+			<Keyword Weight="15">get-vpasaccountrequestidhelper</Keyword>
+			<Keyword Weight="10">account request id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetActiveSessionIDHelper" Command="Get-VPASActiveSessionIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Active Session ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get active session id helper</Keyword>
+			<Keyword Weight="8">show active session id helper</Keyword>
+			<Keyword Weight="8">list active session id helper</Keyword>
+			<Keyword Weight="8">retrieve active session id helper</Keyword>
+			<Keyword Weight="15">get-vpasactivesessionidhelper</Keyword>
+			<Keyword Weight="10">active session id helper</Keyword>
+			<Keyword Weight="10">psm session</Keyword>
+			<Keyword Weight="10">active session</Keyword>
+			<Keyword Weight="9">recording</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetApplicationAuthIDHelper" Command="Get-VPASApplicationAuthIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Application Auth ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get application auth id helper</Keyword>
+			<Keyword Weight="8">show application auth id helper</Keyword>
+			<Keyword Weight="8">list application auth id helper</Keyword>
+			<Keyword Weight="8">retrieve application auth id helper</Keyword>
+			<Keyword Weight="15">get-vpasapplicationauthidhelper</Keyword>
+			<Keyword Weight="10">application auth id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAuthenticationMethodIDHelper" Command="Get-VPASAuthenticationMethodIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Authentication Method ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get authentication method id helper</Keyword>
+			<Keyword Weight="8">show authentication method id helper</Keyword>
+			<Keyword Weight="8">list authentication method id helper</Keyword>
+			<Keyword Weight="8">retrieve authentication method id helper</Keyword>
+			<Keyword Weight="15">get-vpasauthenticationmethodidhelper</Keyword>
+			<Keyword Weight="10">authentication method id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetCMConnectorComponentIDHelper" Command="Get-VPASCMConnectorComponentIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Connector Management Connector Component ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get connector management connector component id helper</Keyword>
+			<Keyword Weight="8">show connector management connector component id helper</Keyword>
+			<Keyword Weight="8">list connector management connector component id helper</Keyword>
+			<Keyword Weight="8">retrieve connector management connector component id helper</Keyword>
+			<Keyword Weight="15">get-vpascmconnectorcomponentidhelper</Keyword>
+			<Keyword Weight="10">connector management connector component id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetCMConnectorIDHelper" Command="Get-VPASCMConnectorIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Connector Management Connector ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get connector management connector id helper</Keyword>
+			<Keyword Weight="8">show connector management connector id helper</Keyword>
+			<Keyword Weight="8">list connector management connector id helper</Keyword>
+			<Keyword Weight="8">retrieve connector management connector id helper</Keyword>
+			<Keyword Weight="15">get-vpascmconnectoridhelper</Keyword>
+			<Keyword Weight="10">connector management connector id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetCMConnectorPoolIDHelper" Command="Get-VPASCMConnectorPoolIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Connector Management Connector Pool ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get connector management connector pool id helper</Keyword>
+			<Keyword Weight="8">show connector management connector pool id helper</Keyword>
+			<Keyword Weight="8">list connector management connector pool id helper</Keyword>
+			<Keyword Weight="8">retrieve connector management connector pool id helper</Keyword>
+			<Keyword Weight="15">get-vpascmconnectorpoolidhelper</Keyword>
+			<Keyword Weight="10">connector management connector pool id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetCurrentEPVUserDetailsHelper" Command="Get-VPASCurrentEPVUserDetailsHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Current EPV User Details Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get current epv user details helper</Keyword>
+			<Keyword Weight="8">show current epv user details helper</Keyword>
+			<Keyword Weight="8">list current epv user details helper</Keyword>
+			<Keyword Weight="8">retrieve current epv user details helper</Keyword>
+			<Keyword Weight="15">get-vpascurrentepvuserdetailshelper</Keyword>
+			<Keyword Weight="10">current epv user details helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetDirectoryMappingIDHelper" Command="Get-VPASDirectoryMappingIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Directory Mapping ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get directory mapping id helper</Keyword>
+			<Keyword Weight="8">show directory mapping id helper</Keyword>
+			<Keyword Weight="8">list directory mapping id helper</Keyword>
+			<Keyword Weight="8">retrieve directory mapping id helper</Keyword>
+			<Keyword Weight="15">get-vpasdirectorymappingidhelper</Keyword>
+			<Keyword Weight="10">directory mapping id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetDiscoveredAccountIDHelper" Command="Get-VPASDiscoveredAccountIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Discovered Account ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get discovered account id helper</Keyword>
+			<Keyword Weight="8">show discovered account id helper</Keyword>
+			<Keyword Weight="8">list discovered account id helper</Keyword>
+			<Keyword Weight="8">retrieve discovered account id helper</Keyword>
+			<Keyword Weight="15">get-vpasdiscoveredaccountidhelper</Keyword>
+			<Keyword Weight="10">discovered account id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSIAPolicyIDHelper" Command="Get-VPASSIAPolicyIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for SIA Policy ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get sia policy id helper</Keyword>
+			<Keyword Weight="8">show sia policy id helper</Keyword>
+			<Keyword Weight="8">list sia policy id helper</Keyword>
+			<Keyword Weight="8">retrieve sia policy id helper</Keyword>
+			<Keyword Weight="15">get-vpassiapolicyidhelper</Keyword>
+			<Keyword Weight="10">sia policy id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSIAStrongAccountIDHelper" Command="Get-VPASSIAStrongAccountIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for SIA Strong Account ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get sia strong account id helper</Keyword>
+			<Keyword Weight="8">show sia strong account id helper</Keyword>
+			<Keyword Weight="8">list sia strong account id helper</Keyword>
+			<Keyword Weight="8">retrieve sia strong account id helper</Keyword>
+			<Keyword Weight="15">get-vpassiastrongaccountidhelper</Keyword>
+			<Keyword Weight="10">sia strong account id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetEPVGroupIDHelper" Command="Get-VPASEPVGroupIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for EPV Group ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get epv group id helper</Keyword>
+			<Keyword Weight="8">show epv group id helper</Keyword>
+			<Keyword Weight="8">list epv group id helper</Keyword>
+			<Keyword Weight="8">retrieve epv group id helper</Keyword>
+			<Keyword Weight="15">get-vpasepvgroupidhelper</Keyword>
+			<Keyword Weight="10">epv group id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetEPVUserIDHelper" Command="Get-VPASEPVUserIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for EPV User ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get epv user id helper</Keyword>
+			<Keyword Weight="8">show epv user id helper</Keyword>
+			<Keyword Weight="8">list epv user id helper</Keyword>
+			<Keyword Weight="8">retrieve epv user id helper</Keyword>
+			<Keyword Weight="15">get-vpasepvuseridhelper</Keyword>
+			<Keyword Weight="10">epv user id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetGroupPlatformIDHelper" Command="Get-VPASGroupPlatformIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Group Platform ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get group platform id helper</Keyword>
+			<Keyword Weight="8">show group platform id helper</Keyword>
+			<Keyword Weight="8">list group platform id helper</Keyword>
+			<Keyword Weight="8">retrieve group platform id helper</Keyword>
+			<Keyword Weight="15">get-vpasgroupplatformidhelper</Keyword>
+			<Keyword Weight="10">group platform id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetIncomingRequestIDHelper" Command="Get-VPASIncomingRequestIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Incoming Request ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get incoming request id helper</Keyword>
+			<Keyword Weight="8">show incoming request id helper</Keyword>
+			<Keyword Weight="8">list incoming request id helper</Keyword>
+			<Keyword Weight="8">retrieve incoming request id helper</Keyword>
+			<Keyword Weight="15">get-vpasincomingrequestidhelper</Keyword>
+			<Keyword Weight="10">incoming request id helper</Keyword>
+			<Keyword Weight="10">pending requests</Keyword>
+			<Keyword Weight="10">access request</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetPlatformIDHelper" Command="Get-VPASPlatformIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Platform ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get platform id helper</Keyword>
+			<Keyword Weight="8">show platform id helper</Keyword>
+			<Keyword Weight="8">list platform id helper</Keyword>
+			<Keyword Weight="8">retrieve platform id helper</Keyword>
+			<Keyword Weight="15">get-vpasplatformidhelper</Keyword>
+			<Keyword Weight="10">platform id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetRecordingIDHelper" Command="Get-VPASRecordingIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Recording ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get recording id helper</Keyword>
+			<Keyword Weight="8">show recording id helper</Keyword>
+			<Keyword Weight="8">list recording id helper</Keyword>
+			<Keyword Weight="8">retrieve recording id helper</Keyword>
+			<Keyword Weight="15">get-vpasrecordingidhelper</Keyword>
+			<Keyword Weight="10">recording id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetRoleIDIdentityHelper" Command="Get-VPASRoleIDIdentityHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Role ID Identity Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get role id identity helper</Keyword>
+			<Keyword Weight="8">show role id identity helper</Keyword>
+			<Keyword Weight="8">list role id identity helper</Keyword>
+			<Keyword Weight="8">retrieve role id identity helper</Keyword>
+			<Keyword Weight="15">get-vpasroleididentityhelper</Keyword>
+			<Keyword Weight="10">role id identity helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetRotationalPlatformIDHelper" Command="Get-VPASRotationalPlatformIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Rotational Platform ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get rotational platform id helper</Keyword>
+			<Keyword Weight="8">show rotational platform id helper</Keyword>
+			<Keyword Weight="8">list rotational platform id helper</Keyword>
+			<Keyword Weight="8">retrieve rotational platform id helper</Keyword>
+			<Keyword Weight="15">get-vpasrotationalplatformidhelper</Keyword>
+			<Keyword Weight="10">rotational platform id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSecurityQuestionIDIdentityHelper" Command="Get-VPASSecurityQuestionIDIdentityHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Security Question ID Identity Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get security question id identity helper</Keyword>
+			<Keyword Weight="8">show security question id identity helper</Keyword>
+			<Keyword Weight="8">list security question id identity helper</Keyword>
+			<Keyword Weight="8">retrieve security question id identity helper</Keyword>
+			<Keyword Weight="15">get-vpassecurityquestionididentityhelper</Keyword>
+			<Keyword Weight="10">security question id identity helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetSession" Command="Get-VPASSession" Category="Sessions">
+		<Description>Resolve prompts that refer to get operations for Session.</Description>
+		<Keywords>
+			<Keyword Weight="12">get session</Keyword>
+			<Keyword Weight="8">show session</Keyword>
+			<Keyword Weight="8">list session</Keyword>
+			<Keyword Weight="8">retrieve session</Keyword>
+			<Keyword Weight="15">get-vpassession</Keyword>
+			<Keyword Weight="10">session</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetUsagePlatformIDHelper" Command="Get-VPASUsagePlatformIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Usage Platform ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get usage platform id helper</Keyword>
+			<Keyword Weight="8">show usage platform id helper</Keyword>
+			<Keyword Weight="8">list usage platform id helper</Keyword>
+			<Keyword Weight="8">retrieve usage platform id helper</Keyword>
+			<Keyword Weight="15">get-vpasusageplatformidhelper</Keyword>
+			<Keyword Weight="10">usage platform id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetUserIDIdentityHelper" Command="Get-VPASUserIDIdentityHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for User ID Identity Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get user id identity helper</Keyword>
+			<Keyword Weight="8">show user id identity helper</Keyword>
+			<Keyword Weight="8">list user id identity helper</Keyword>
+			<Keyword Weight="8">retrieve user id identity helper</Keyword>
+			<Keyword Weight="15">get-vpasuserididentityhelper</Keyword>
+			<Keyword Weight="10">user id identity helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="TestHashtableKeysHelper" Command="Test-VPASHashtableKeysHelper" Category="Helper">
+		<Description>Resolve prompts that refer to test operations for Hashtable Keys Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">test hashtable keys helper</Keyword>
+			<Keyword Weight="8">validate hashtable keys helper</Keyword>
+			<Keyword Weight="8">check hashtable keys helper</Keyword>
+			<Keyword Weight="15">test-vpashashtablekeyshelper</Keyword>
+			<Keyword Weight="10">hashtable keys helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="WriteIterate" Command="Write-Iterate" Category="Helper">
+		<Description>Resolve prompts that refer to write operations for Iterate.</Description>
+		<Keywords>
+			<Keyword Weight="12">write iterate</Keyword>
+			<Keyword Weight="8">output iterate</Keyword>
+			<Keyword Weight="8">log iterate</Keyword>
+			<Keyword Weight="15">write-iterate</Keyword>
+			<Keyword Weight="10">iterate</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="WriteExampleHelper" Command="Write-VPASExampleHelper" Category="Helper">
+		<Description>Resolve prompts that refer to write operations for Example Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">write example helper</Keyword>
+			<Keyword Weight="8">output example helper</Keyword>
+			<Keyword Weight="8">log example helper</Keyword>
+			<Keyword Weight="15">write-vpasexamplehelper</Keyword>
+			<Keyword Weight="10">example helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="WriteExportCSV" Command="Write-VPASExportCSV" Category="General">
+		<Description>Resolve prompts that refer to write operations for Export CSV.</Description>
+		<Keywords>
+			<Keyword Weight="12">write export csv</Keyword>
+			<Keyword Weight="8">output export csv</Keyword>
+			<Keyword Weight="8">log export csv</Keyword>
+			<Keyword Weight="15">write-vpasexportcsv</Keyword>
+			<Keyword Weight="10">export csv</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="WriteLogger" Command="Write-VPASLogger" Category="General">
+		<Description>Resolve prompts that refer to write operations for Logger.</Description>
+		<Keywords>
+			<Keyword Weight="12">write logger</Keyword>
+			<Keyword Weight="8">output logger</Keyword>
+			<Keyword Weight="8">log logger</Keyword>
+			<Keyword Weight="15">write-vpaslogger</Keyword>
+			<Keyword Weight="10">logger</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="WriteTextRecorder" Command="Write-VPASTextRecorder" Category="General">
+		<Description>Resolve prompts that refer to write operations for Text Recorder.</Description>
+		<Keywords>
+			<Keyword Weight="12">write text recorder</Keyword>
+			<Keyword Weight="8">output text recorder</Keyword>
+			<Keyword Weight="8">log text recorder</Keyword>
+			<Keyword Weight="15">write-vpastextrecorder</Keyword>
+			<Keyword Weight="10">text recorder</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="WriteTypewriter" Command="Write-VPASTypewriter" Category="General">
+		<Description>Resolve prompts that refer to write operations for Typewriter.</Description>
+		<Keywords>
+			<Keyword Weight="12">write typewriter</Keyword>
+			<Keyword Weight="8">output typewriter</Keyword>
+			<Keyword Weight="8">log typewriter</Keyword>
+			<Keyword Weight="15">write-vpastypewriter</Keyword>
+			<Keyword Weight="10">typewriter</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetIdentityAllApplicationTemplates" Command="Get-VPASIdentityAllApplicationTemplates" Category="Identity">
+		<Description>Resolve prompts that refer to get operations for Identity All Application Templates.</Description>
+		<Keywords>
+			<Keyword Weight="12">get identity all application templates</Keyword>
+			<Keyword Weight="8">show identity all application templates</Keyword>
+			<Keyword Weight="8">list identity all application templates</Keyword>
+			<Keyword Weight="8">retrieve identity all application templates</Keyword>
+			<Keyword Weight="15">get-vpasidentityallapplicationtemplates</Keyword>
+			<Keyword Weight="10">identity all application templates</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetIdentityApplicationTemplates" Command="Get-VPASIdentityApplicationTemplates" Category="Identity">
+		<Description>Resolve prompts that refer to get operations for Identity Application Templates.</Description>
+		<Keywords>
+			<Keyword Weight="12">get identity application templates</Keyword>
+			<Keyword Weight="8">show identity application templates</Keyword>
+			<Keyword Weight="8">list identity application templates</Keyword>
+			<Keyword Weight="8">retrieve identity application templates</Keyword>
+			<Keyword Weight="15">get-vpasidentityapplicationtemplates</Keyword>
+			<Keyword Weight="10">identity application templates</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetIdentityApplicationDetails" Command="Get-VPASIdentityApplicationDetails" Category="Identity">
+		<Description>Resolve prompts that refer to get operations for Identity Application Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get identity application details</Keyword>
+			<Keyword Weight="8">show identity application details</Keyword>
+			<Keyword Weight="8">list identity application details</Keyword>
+			<Keyword Weight="8">retrieve identity application details</Keyword>
+			<Keyword Weight="15">get-vpasidentityapplicationdetails</Keyword>
+			<Keyword Weight="10">identity application details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetApplicationIDIdentityHelper" Command="Get-VPASApplicationIDIdentityHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Application ID Identity Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get application id identity helper</Keyword>
+			<Keyword Weight="8">show application id identity helper</Keyword>
+			<Keyword Weight="8">list application id identity helper</Keyword>
+			<Keyword Weight="8">retrieve application id identity helper</Keyword>
+			<Keyword Weight="15">get-vpasapplicationididentityhelper</Keyword>
+			<Keyword Weight="10">application id identity helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetIdentityAllApplications" Command="Get-VPASIdentityAllApplications" Category="Identity">
+		<Description>Resolve prompts that refer to get operations for Identity All Applications.</Description>
+		<Keywords>
+			<Keyword Weight="12">get identity all applications</Keyword>
+			<Keyword Weight="8">show identity all applications</Keyword>
+			<Keyword Weight="8">list identity all applications</Keyword>
+			<Keyword Weight="8">retrieve identity all applications</Keyword>
+			<Keyword Weight="15">get-vpasidentityallapplications</Keyword>
+			<Keyword Weight="10">identity all applications</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetIdentityApplications" Command="Get-VPASIdentityApplications" Category="Identity">
+		<Description>Resolve prompts that refer to get operations for Identity Applications.</Description>
+		<Keywords>
+			<Keyword Weight="12">get identity applications</Keyword>
+			<Keyword Weight="8">show identity applications</Keyword>
+			<Keyword Weight="8">list identity applications</Keyword>
+			<Keyword Weight="8">retrieve identity applications</Keyword>
+			<Keyword Weight="15">get-vpasidentityapplications</Keyword>
+			<Keyword Weight="10">identity applications</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="TestIdentityApplicationCatalog" Command="Test-VPASIdentityApplicationCatalog" Category="Identity">
+		<Description>Resolve prompts that refer to test operations for Identity Application Catalog.</Description>
+		<Keywords>
+			<Keyword Weight="12">test identity application catalog</Keyword>
+			<Keyword Weight="8">validate identity application catalog</Keyword>
+			<Keyword Weight="8">check identity application catalog</Keyword>
+			<Keyword Weight="15">test-vpasidentityapplicationcatalog</Keyword>
+			<Keyword Weight="10">identity application catalog</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetStoredPlatformDetails" Command="Get-VPASStoredPlatformDetails" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for Stored Platform Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get stored platform details</Keyword>
+			<Keyword Weight="8">show stored platform details</Keyword>
+			<Keyword Weight="8">list stored platform details</Keyword>
+			<Keyword Weight="8">retrieve stored platform details</Keyword>
+			<Keyword Weight="15">get-vpasstoredplatformdetails</Keyword>
+			<Keyword Weight="10">stored platform details</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveStoredPlatform" Command="Remove-VPASStoredPlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to remove operations for Stored Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove stored platform</Keyword>
+			<Keyword Weight="8">delete stored platform</Keyword>
+			<Keyword Weight="8">drop stored platform</Keyword>
+			<Keyword Weight="15">remove-vpasstoredplatform</Keyword>
+			<Keyword Weight="10">stored platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="SetStoredPlatform" Command="Set-VPASStoredPlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to set operations for Stored Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">set stored platform</Keyword>
+			<Keyword Weight="8">configure stored platform</Keyword>
+			<Keyword Weight="8">assign stored platform</Keyword>
+			<Keyword Weight="15">set-vpasstoredplatform</Keyword>
+			<Keyword Weight="10">stored platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="ImportStoredPlatform" Command="Import-VPASStoredPlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to import operations for Stored Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">import stored platform</Keyword>
+			<Keyword Weight="8">upload stored platform</Keyword>
+			<Keyword Weight="8">load stored platform</Keyword>
+			<Keyword Weight="15">import-vpasstoredplatform</Keyword>
+			<Keyword Weight="10">stored platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetMasterPolicySettings" Command="Get-VPASMasterPolicySettings" Category="General">
+		<Description>Resolve prompts that refer to get operations for Master Policy Settings.</Description>
+		<Keywords>
+			<Keyword Weight="12">get master policy settings</Keyword>
+			<Keyword Weight="8">show master policy settings</Keyword>
+			<Keyword Weight="8">list master policy settings</Keyword>
+			<Keyword Weight="8">retrieve master policy settings</Keyword>
+			<Keyword Weight="15">get-vpasmasterpolicysettings</Keyword>
+			<Keyword Weight="10">master policy settings</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdateMasterPolicySettings" Command="Update-VPASMasterPolicySettings" Category="General">
+		<Description>Resolve prompts that refer to update operations for Master Policy Settings.</Description>
+		<Keywords>
+			<Keyword Weight="12">update master policy settings</Keyword>
+			<Keyword Weight="8">modify master policy settings</Keyword>
+			<Keyword Weight="8">change master policy settings</Keyword>
+			<Keyword Weight="8">edit master policy settings</Keyword>
+			<Keyword Weight="15">update-vpasmasterpolicysettings</Keyword>
+			<Keyword Weight="10">master policy settings</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllMasterPolicySettings" Command="Get-VPASAllMasterPolicySettings" Category="General">
+		<Description>Resolve prompts that refer to get operations for All Master Policy Settings.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all master policy settings</Keyword>
+			<Keyword Weight="8">show all master policy settings</Keyword>
+			<Keyword Weight="8">list all master policy settings</Keyword>
+			<Keyword Weight="8">retrieve all master policy settings</Keyword>
+			<Keyword Weight="15">get-vpasallmasterpolicysettings</Keyword>
+			<Keyword Weight="10">all master policy settings</Keyword>
+			<Keyword Weight="9">master policy settings</Keyword>
+			<Keyword Weight="8">get master policy settings</Keyword>
+			<Keyword Weight="8">show master policy settings</Keyword>
+			<Keyword Weight="8">list master policy settings</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllDependentAccounts" Command="Get-VPASAllDependentAccounts" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for All Dependent Accounts.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all dependent accounts</Keyword>
+			<Keyword Weight="8">show all dependent accounts</Keyword>
+			<Keyword Weight="8">list all dependent accounts</Keyword>
+			<Keyword Weight="8">retrieve all dependent accounts</Keyword>
+			<Keyword Weight="15">get-vpasalldependentaccounts</Keyword>
+			<Keyword Weight="10">all dependent accounts</Keyword>
+			<Keyword Weight="9">dependent accounts</Keyword>
+			<Keyword Weight="8">get dependent accounts</Keyword>
+			<Keyword Weight="8">show dependent accounts</Keyword>
+			<Keyword Weight="8">list dependent accounts</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetDependentAccounts" Command="Get-VPASDependentAccounts" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for Dependent Accounts.</Description>
+		<Keywords>
+			<Keyword Weight="12">get dependent accounts</Keyword>
+			<Keyword Weight="8">show dependent accounts</Keyword>
+			<Keyword Weight="8">list dependent accounts</Keyword>
+			<Keyword Weight="8">retrieve dependent accounts</Keyword>
+			<Keyword Weight="15">get-vpasdependentaccounts</Keyword>
+			<Keyword Weight="10">dependent accounts</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetDependentAccountIDHelper" Command="Get-VPASDependentAccountIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Dependent Account ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get dependent account id helper</Keyword>
+			<Keyword Weight="8">show dependent account id helper</Keyword>
+			<Keyword Weight="8">list dependent account id helper</Keyword>
+			<Keyword Weight="8">retrieve dependent account id helper</Keyword>
+			<Keyword Weight="15">get-vpasdependentaccountidhelper</Keyword>
+			<Keyword Weight="10">dependent account id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetDependentAccountDetails" Command="Get-VPASDependentAccountDetails" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for Dependent Account Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get dependent account details</Keyword>
+			<Keyword Weight="8">show dependent account details</Keyword>
+			<Keyword Weight="8">list dependent account details</Keyword>
+			<Keyword Weight="8">retrieve dependent account details</Keyword>
+			<Keyword Weight="15">get-vpasdependentaccountdetails</Keyword>
+			<Keyword Weight="10">dependent account details</Keyword>
+			<Keyword Weight="12">account details</Keyword>
+			<Keyword Weight="10">get account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddDependentAccount" Command="Add-VPASDependentAccount" Category="Accounts">
+		<Description>Resolve prompts that refer to add operations for Dependent Account.</Description>
+		<Keywords>
+			<Keyword Weight="12">add dependent account</Keyword>
+			<Keyword Weight="8">create dependent account</Keyword>
+			<Keyword Weight="8">new dependent account</Keyword>
+			<Keyword Weight="8">onboard dependent account</Keyword>
+			<Keyword Weight="15">add-vpasdependentaccount</Keyword>
+			<Keyword Weight="10">dependent account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveDependentAccount" Command="Remove-VPASDependentAccount" Category="Accounts">
+		<Description>Resolve prompts that refer to remove operations for Dependent Account.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove dependent account</Keyword>
+			<Keyword Weight="8">delete dependent account</Keyword>
+			<Keyword Weight="8">drop dependent account</Keyword>
+			<Keyword Weight="15">remove-vpasdependentaccount</Keyword>
+			<Keyword Weight="10">dependent account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="ResumeDependentAccount" Command="Resume-VPASDependentAccount" Category="Accounts">
+		<Description>Resolve prompts that refer to resume operations for Dependent Account.</Description>
+		<Keywords>
+			<Keyword Weight="12">resume dependent account</Keyword>
+			<Keyword Weight="8">continue dependent account</Keyword>
+			<Keyword Weight="15">resume-vpasdependentaccount</Keyword>
+			<Keyword Weight="10">dependent account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="PushDependentAccountSecret" Command="Push-VPASDependentAccountSecret" Category="Accounts">
+		<Description>Resolve prompts that refer to push operations for Dependent Account Secret.</Description>
+		<Keywords>
+			<Keyword Weight="12">push dependent account secret</Keyword>
+			<Keyword Weight="8">sync dependent account secret</Keyword>
+			<Keyword Weight="8">submit dependent account secret</Keyword>
+			<Keyword Weight="15">push-vpasdependentaccountsecret</Keyword>
+			<Keyword Weight="10">dependent account secret</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdateDependentAccount" Command="Update-VPASDependentAccount" Category="Accounts">
+		<Description>Resolve prompts that refer to update operations for Dependent Account.</Description>
+		<Keywords>
+			<Keyword Weight="12">update dependent account</Keyword>
+			<Keyword Weight="8">modify dependent account</Keyword>
+			<Keyword Weight="8">change dependent account</Keyword>
+			<Keyword Weight="8">edit dependent account</Keyword>
+			<Keyword Weight="15">update-vpasdependentaccount</Keyword>
+			<Keyword Weight="10">dependent account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="AddOnboardingRule" Command="Add-VPASOnboardingRule" Category="Discovery">
+		<Description>Resolve prompts that refer to add operations for Onboarding Rule.</Description>
+		<Keywords>
+			<Keyword Weight="12">add onboarding rule</Keyword>
+			<Keyword Weight="8">create onboarding rule</Keyword>
+			<Keyword Weight="8">new onboarding rule</Keyword>
+			<Keyword Weight="8">onboard onboarding rule</Keyword>
+			<Keyword Weight="15">add-vpasonboardingrule</Keyword>
+			<Keyword Weight="10">onboarding rule</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllOnboardingRules" Command="Get-VPASAllOnboardingRules" Category="Discovery">
+		<Description>Resolve prompts that refer to get operations for All Onboarding Rules.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all onboarding rules</Keyword>
+			<Keyword Weight="8">show all onboarding rules</Keyword>
+			<Keyword Weight="8">list all onboarding rules</Keyword>
+			<Keyword Weight="8">retrieve all onboarding rules</Keyword>
+			<Keyword Weight="15">get-vpasallonboardingrules</Keyword>
+			<Keyword Weight="10">all onboarding rules</Keyword>
+			<Keyword Weight="9">onboarding rules</Keyword>
+			<Keyword Weight="8">get onboarding rules</Keyword>
+			<Keyword Weight="8">show onboarding rules</Keyword>
+			<Keyword Weight="8">list onboarding rules</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetOnboardingRules" Command="Get-VPASOnboardingRules" Category="Discovery">
+		<Description>Resolve prompts that refer to get operations for Onboarding Rules.</Description>
+		<Keywords>
+			<Keyword Weight="12">get onboarding rules</Keyword>
+			<Keyword Weight="8">show onboarding rules</Keyword>
+			<Keyword Weight="8">list onboarding rules</Keyword>
+			<Keyword Weight="8">retrieve onboarding rules</Keyword>
+			<Keyword Weight="15">get-vpasonboardingrules</Keyword>
+			<Keyword Weight="10">onboarding rules</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetOnboardingRuleIDHelper" Command="Get-VPASOnboardingRuleIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Onboarding Rule ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get onboarding rule id helper</Keyword>
+			<Keyword Weight="8">show onboarding rule id helper</Keyword>
+			<Keyword Weight="8">list onboarding rule id helper</Keyword>
+			<Keyword Weight="8">retrieve onboarding rule id helper</Keyword>
+			<Keyword Weight="15">get-vpasonboardingruleidhelper</Keyword>
+			<Keyword Weight="10">onboarding rule id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveOnboardingRule" Command="Remove-VPASOnboardingRule" Category="Discovery">
+		<Description>Resolve prompts that refer to remove operations for Onboarding Rule.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove onboarding rule</Keyword>
+			<Keyword Weight="8">delete onboarding rule</Keyword>
+			<Keyword Weight="8">drop onboarding rule</Keyword>
+			<Keyword Weight="15">remove-vpasonboardingrule</Keyword>
+			<Keyword Weight="10">onboarding rule</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllReports" Command="Get-VPASAllReports" Category="Reports">
+		<Description>Resolve prompts that refer to get operations for All Reports.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all reports</Keyword>
+			<Keyword Weight="8">show all reports</Keyword>
+			<Keyword Weight="8">list all reports</Keyword>
+			<Keyword Weight="8">retrieve all reports</Keyword>
+			<Keyword Weight="15">get-vpasallreports</Keyword>
+			<Keyword Weight="10">all reports</Keyword>
+			<Keyword Weight="9">reports</Keyword>
+			<Keyword Weight="8">get reports</Keyword>
+			<Keyword Weight="8">show reports</Keyword>
+			<Keyword Weight="8">list reports</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllTasks" Command="Get-VPASAllTasks" Category="General">
+		<Description>Resolve prompts that refer to get operations for All Tasks.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all tasks</Keyword>
+			<Keyword Weight="8">show all tasks</Keyword>
+			<Keyword Weight="8">list all tasks</Keyword>
+			<Keyword Weight="8">retrieve all tasks</Keyword>
+			<Keyword Weight="15">get-vpasalltasks</Keyword>
+			<Keyword Weight="10">all tasks</Keyword>
+			<Keyword Weight="9">tasks</Keyword>
+			<Keyword Weight="8">get tasks</Keyword>
+			<Keyword Weight="8">show tasks</Keyword>
+			<Keyword Weight="8">list tasks</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="SetDependentLinkedAccount" Command="Set-VPASDependentLinkedAccount" Category="Accounts">
+		<Description>Resolve prompts that refer to set operations for Dependent Linked Account.</Description>
+		<Keywords>
+			<Keyword Weight="12">set dependent linked account</Keyword>
+			<Keyword Weight="8">configure dependent linked account</Keyword>
+			<Keyword Weight="8">assign dependent linked account</Keyword>
+			<Keyword Weight="15">set-vpasdependentlinkedaccount</Keyword>
+			<Keyword Weight="10">dependent linked account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveDependentLinkedAccount" Command="Remove-VPASDependentLinkedAccount" Category="Accounts">
+		<Description>Resolve prompts that refer to remove operations for Dependent Linked Account.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove dependent linked account</Keyword>
+			<Keyword Weight="8">delete dependent linked account</Keyword>
+			<Keyword Weight="8">drop dependent linked account</Keyword>
+			<Keyword Weight="15">remove-vpasdependentlinkedaccount</Keyword>
+			<Keyword Weight="10">dependent linked account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetReports" Command="Get-VPASReports" Category="Reports">
+		<Description>Resolve prompts that refer to get operations for Reports.</Description>
+		<Keywords>
+			<Keyword Weight="12">get reports</Keyword>
+			<Keyword Weight="8">show reports</Keyword>
+			<Keyword Weight="8">list reports</Keyword>
+			<Keyword Weight="8">retrieve reports</Keyword>
+			<Keyword Weight="15">get-vpasreports</Keyword>
+			<Keyword Weight="10">reports</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdateSession" Command="Update-VPASSession" Category="Sessions">
+		<Description>Resolve prompts that refer to update operations for Session.</Description>
+		<Keywords>
+			<Keyword Weight="12">update session</Keyword>
+			<Keyword Weight="8">modify session</Keyword>
+			<Keyword Weight="8">change session</Keyword>
+			<Keyword Weight="8">edit session</Keyword>
+			<Keyword Weight="15">update-vpassession</Keyword>
+			<Keyword Weight="10">session</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdatePlatform" Command="Update-VPASPlatform" Category="Platforms">
+		<Description>Resolve prompts that refer to update operations for Platform.</Description>
+		<Keywords>
+			<Keyword Weight="12">update platform</Keyword>
+			<Keyword Weight="8">modify platform</Keyword>
+			<Keyword Weight="8">change platform</Keyword>
+			<Keyword Weight="8">edit platform</Keyword>
+			<Keyword Weight="15">update-vpasplatform</Keyword>
+			<Keyword Weight="10">platform</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetClientIDs" Command="Get-VPASClientIDs" Category="General">
+		<Description>Resolve prompts that refer to get operations for Client I Ds.</Description>
+		<Keywords>
+			<Keyword Weight="12">get client i ds</Keyword>
+			<Keyword Weight="8">show client i ds</Keyword>
+			<Keyword Weight="8">list client i ds</Keyword>
+			<Keyword Weight="8">retrieve client i ds</Keyword>
+			<Keyword Weight="15">get-vpasclientids</Keyword>
+			<Keyword Weight="10">client i ds</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllRemediationRules" Command="Get-VPASAllRemediationRules" Category="Discovery">
+		<Description>Resolve prompts that refer to get operations for All Remediation Rules.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all remediation rules</Keyword>
+			<Keyword Weight="8">show all remediation rules</Keyword>
+			<Keyword Weight="8">list all remediation rules</Keyword>
+			<Keyword Weight="8">retrieve all remediation rules</Keyword>
+			<Keyword Weight="15">get-vpasallremediationrules</Keyword>
+			<Keyword Weight="10">all remediation rules</Keyword>
+			<Keyword Weight="9">remediation rules</Keyword>
+			<Keyword Weight="8">get remediation rules</Keyword>
+			<Keyword Weight="8">show remediation rules</Keyword>
+			<Keyword Weight="8">list remediation rules</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetRemediationRulesIDHelper" Command="Get-VPASRemediationRulesIDHelper" Category="Helper">
+		<Description>Resolve prompts that refer to get operations for Remediation Rules ID Helper.</Description>
+		<Keywords>
+			<Keyword Weight="12">get remediation rules id helper</Keyword>
+			<Keyword Weight="8">show remediation rules id helper</Keyword>
+			<Keyword Weight="8">list remediation rules id helper</Keyword>
+			<Keyword Weight="8">retrieve remediation rules id helper</Keyword>
+			<Keyword Weight="15">get-vpasremediationrulesidhelper</Keyword>
+			<Keyword Weight="10">remediation rules id helper</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetRemediationRules" Command="Get-VPASRemediationRules" Category="Discovery">
+		<Description>Resolve prompts that refer to get operations for Remediation Rules.</Description>
+		<Keywords>
+			<Keyword Weight="12">get remediation rules</Keyword>
+			<Keyword Weight="8">show remediation rules</Keyword>
+			<Keyword Weight="8">list remediation rules</Keyword>
+			<Keyword Weight="8">retrieve remediation rules</Keyword>
+			<Keyword Weight="15">get-vpasremediationrules</Keyword>
+			<Keyword Weight="10">remediation rules</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveRemediationRule" Command="Remove-VPASRemediationRule" Category="Discovery">
+		<Description>Resolve prompts that refer to remove operations for Remediation Rule.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove remediation rule</Keyword>
+			<Keyword Weight="8">delete remediation rule</Keyword>
+			<Keyword Weight="8">drop remediation rule</Keyword>
+			<Keyword Weight="15">remove-vpasremediationrule</Keyword>
+			<Keyword Weight="10">remediation rule</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveDiscoveredAccount" Command="Remove-VPASDiscoveredAccount" Category="Accounts">
+		<Description>Resolve prompts that refer to remove operations for Discovered Account.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove discovered account</Keyword>
+			<Keyword Weight="8">delete discovered account</Keyword>
+			<Keyword Weight="8">drop discovered account</Keyword>
+			<Keyword Weight="15">remove-vpasdiscoveredaccount</Keyword>
+			<Keyword Weight="10">discovered account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetDiscoveredAccountDetails" Command="Get-VPASDiscoveredAccountDetails" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for Discovered Account Details.</Description>
+		<Keywords>
+			<Keyword Weight="12">get discovered account details</Keyword>
+			<Keyword Weight="8">show discovered account details</Keyword>
+			<Keyword Weight="8">list discovered account details</Keyword>
+			<Keyword Weight="8">retrieve discovered account details</Keyword>
+			<Keyword Weight="15">get-vpasdiscoveredaccountdetails</Keyword>
+			<Keyword Weight="10">discovered account details</Keyword>
+			<Keyword Weight="12">account details</Keyword>
+			<Keyword Weight="10">get account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="ImportDiscoveredAccount" Command="Import-VPASDiscoveredAccount" Category="Accounts">
+		<Description>Resolve prompts that refer to import operations for Discovered Account.</Description>
+		<Keywords>
+			<Keyword Weight="12">import discovered account</Keyword>
+			<Keyword Weight="8">upload discovered account</Keyword>
+			<Keyword Weight="8">load discovered account</Keyword>
+			<Keyword Weight="15">import-vpasdiscoveredaccount</Keyword>
+			<Keyword Weight="10">discovered account</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetDiscoveredAccountActivities" Command="Get-VPASDiscoveredAccountActivities" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for Discovered Account Activities.</Description>
+		<Keywords>
+			<Keyword Weight="12">get discovered account activities</Keyword>
+			<Keyword Weight="8">show discovered account activities</Keyword>
+			<Keyword Weight="8">list discovered account activities</Keyword>
+			<Keyword Weight="8">retrieve discovered account activities</Keyword>
+			<Keyword Weight="15">get-vpasdiscoveredaccountactivities</Keyword>
+			<Keyword Weight="10">discovered account activities</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllDiscoveryScanDefinitions" Command="Get-VPASAllDiscoveryScanDefinitions" Category="General">
+		<Description>Resolve prompts that refer to get operations for All Discovery Scan Definitions.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all discovery scan definitions</Keyword>
+			<Keyword Weight="8">show all discovery scan definitions</Keyword>
+			<Keyword Weight="8">list all discovery scan definitions</Keyword>
+			<Keyword Weight="8">retrieve all discovery scan definitions</Keyword>
+			<Keyword Weight="15">get-vpasalldiscoveryscandefinitions</Keyword>
+			<Keyword Weight="10">all discovery scan definitions</Keyword>
+			<Keyword Weight="9">discovery scan definitions</Keyword>
+			<Keyword Weight="8">get discovery scan definitions</Keyword>
+			<Keyword Weight="8">show discovery scan definitions</Keyword>
+			<Keyword Weight="8">list discovery scan definitions</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="TestAPIEndpoint" Command="Test-VPASAPIEndpoint" Category="General">
+		<Description>Resolve prompts that refer to test operations for API Endpoint.</Description>
+		<Keywords>
+			<Keyword Weight="12">test api endpoint</Keyword>
+			<Keyword Weight="8">validate api endpoint</Keyword>
+			<Keyword Weight="8">check api endpoint</Keyword>
+			<Keyword Weight="15">test-vpasapiendpoint</Keyword>
+			<Keyword Weight="10">api endpoint</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetPlatformRotationPolicy" Command="Get-VPASPlatformRotationPolicy" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for Platform Rotation Policy.</Description>
+		<Keywords>
+			<Keyword Weight="12">get platform rotation policy</Keyword>
+			<Keyword Weight="8">show platform rotation policy</Keyword>
+			<Keyword Weight="8">list platform rotation policy</Keyword>
+			<Keyword Weight="8">retrieve platform rotation policy</Keyword>
+			<Keyword Weight="15">get-vpasplatformrotationpolicy</Keyword>
+			<Keyword Weight="10">platform rotation policy</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdatePlatformRotationPolicy" Command="Update-VPASPlatformRotationPolicy" Category="Platforms">
+		<Description>Resolve prompts that refer to update operations for Platform Rotation Policy.</Description>
+		<Keywords>
+			<Keyword Weight="12">update platform rotation policy</Keyword>
+			<Keyword Weight="8">modify platform rotation policy</Keyword>
+			<Keyword Weight="8">change platform rotation policy</Keyword>
+			<Keyword Weight="8">edit platform rotation policy</Keyword>
+			<Keyword Weight="15">update-vpasplatformrotationpolicy</Keyword>
+			<Keyword Weight="10">platform rotation policy</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetPlatformSecretPolicy" Command="Get-VPASPlatformSecretPolicy" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for Platform Secret Policy.</Description>
+		<Keywords>
+			<Keyword Weight="12">get platform secret policy</Keyword>
+			<Keyword Weight="8">show platform secret policy</Keyword>
+			<Keyword Weight="8">list platform secret policy</Keyword>
+			<Keyword Weight="8">retrieve platform secret policy</Keyword>
+			<Keyword Weight="15">get-vpasplatformsecretpolicy</Keyword>
+			<Keyword Weight="10">platform secret policy</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdatePlatformSecretPolicy" Command="Update-VPASPlatformSecretPolicy" Category="Platforms">
+		<Description>Resolve prompts that refer to update operations for Platform Secret Policy.</Description>
+		<Keywords>
+			<Keyword Weight="12">update platform secret policy</Keyword>
+			<Keyword Weight="8">modify platform secret policy</Keyword>
+			<Keyword Weight="8">change platform secret policy</Keyword>
+			<Keyword Weight="8">edit platform secret policy</Keyword>
+			<Keyword Weight="15">update-vpasplatformsecretpolicy</Keyword>
+			<Keyword Weight="10">platform secret policy</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAllPlatformPlugins" Command="Get-VPASAllPlatformPlugins" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for All Platform Plugins.</Description>
+		<Keywords>
+			<Keyword Weight="12">get all platform plugins</Keyword>
+			<Keyword Weight="8">show all platform plugins</Keyword>
+			<Keyword Weight="8">list all platform plugins</Keyword>
+			<Keyword Weight="8">retrieve all platform plugins</Keyword>
+			<Keyword Weight="15">get-vpasallplatformplugins</Keyword>
+			<Keyword Weight="10">all platform plugins</Keyword>
+			<Keyword Weight="9">platform plugins</Keyword>
+			<Keyword Weight="8">get platform plugins</Keyword>
+			<Keyword Weight="8">show platform plugins</Keyword>
+			<Keyword Weight="8">list platform plugins</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetPlatformPluginSettings" Command="Get-VPASPlatformPluginSettings" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for Platform Plugin Settings.</Description>
+		<Keywords>
+			<Keyword Weight="12">get platform plugin settings</Keyword>
+			<Keyword Weight="8">show platform plugin settings</Keyword>
+			<Keyword Weight="8">list platform plugin settings</Keyword>
+			<Keyword Weight="8">retrieve platform plugin settings</Keyword>
+			<Keyword Weight="15">get-vpasplatformpluginsettings</Keyword>
+			<Keyword Weight="10">platform plugin settings</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdatePlatformPluginSettings" Command="Update-VPASPlatformPluginSettings" Category="Platforms">
+		<Description>Resolve prompts that refer to update operations for Platform Plugin Settings.</Description>
+		<Keywords>
+			<Keyword Weight="12">update platform plugin settings</Keyword>
+			<Keyword Weight="8">modify platform plugin settings</Keyword>
+			<Keyword Weight="8">change platform plugin settings</Keyword>
+			<Keyword Weight="8">edit platform plugin settings</Keyword>
+			<Keyword Weight="15">update-vpasplatformpluginsettings</Keyword>
+			<Keyword Weight="10">platform plugin settings</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetPlatformWorkflowPolicy" Command="Get-VPASPlatformWorkflowPolicy" Category="Platforms">
+		<Description>Resolve prompts that refer to get operations for Platform Workflow Policy.</Description>
+		<Keywords>
+			<Keyword Weight="12">get platform workflow policy</Keyword>
+			<Keyword Weight="8">show platform workflow policy</Keyword>
+			<Keyword Weight="8">list platform workflow policy</Keyword>
+			<Keyword Weight="8">retrieve platform workflow policy</Keyword>
+			<Keyword Weight="15">get-vpasplatformworkflowpolicy</Keyword>
+			<Keyword Weight="10">platform workflow policy</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdatePlatformWorkflowPolicy" Command="Update-VPASPlatformWorkflowPolicy" Category="Platforms">
+		<Description>Resolve prompts that refer to update operations for Platform Workflow Policy.</Description>
+		<Keywords>
+			<Keyword Weight="12">update platform workflow policy</Keyword>
+			<Keyword Weight="8">modify platform workflow policy</Keyword>
+			<Keyword Weight="8">change platform workflow policy</Keyword>
+			<Keyword Weight="8">edit platform workflow policy</Keyword>
+			<Keyword Weight="15">update-vpasplatformworkflowpolicy</Keyword>
+			<Keyword Weight="10">platform workflow policy</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="GetAccountNetwork" Command="Get-VPASAccountNetwork" Category="Accounts">
+		<Description>Resolve prompts that refer to get operations for Account Network.</Description>
+		<Keywords>
+			<Keyword Weight="12">get account network</Keyword>
+			<Keyword Weight="8">show account network</Keyword>
+			<Keyword Weight="8">list account network</Keyword>
+			<Keyword Weight="8">retrieve account network</Keyword>
+			<Keyword Weight="15">get-vpasaccountnetwork</Keyword>
+			<Keyword Weight="10">account network</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="RemoveAccountNetwork" Command="Remove-VPASAccountNetwork" Category="Accounts">
+		<Description>Resolve prompts that refer to remove operations for Account Network.</Description>
+		<Keywords>
+			<Keyword Weight="12">remove account network</Keyword>
+			<Keyword Weight="8">delete account network</Keyword>
+			<Keyword Weight="8">drop account network</Keyword>
+			<Keyword Weight="15">remove-vpasaccountnetwork</Keyword>
+			<Keyword Weight="10">account network</Keyword>
+		</Keywords>
+	</Intent>
+	<Intent Name="UpdateAccountNetwork" Command="Update-VPASAccountNetwork" Category="Accounts">
+		<Description>Resolve prompts that refer to update operations for Account Network.</Description>
+		<Keywords>
+			<Keyword Weight="12">update account network</Keyword>
+			<Keyword Weight="8">modify account network</Keyword>
+			<Keyword Weight="8">change account network</Keyword>
+			<Keyword Weight="8">edit account network</Keyword>
+			<Keyword Weight="15">update-vpasaccountnetwork</Keyword>
+			<Keyword Weight="10">account network</Keyword>
+		</Keywords>
+	</Intent>
+</VPASIntentMap>
